@@ -54,7 +54,11 @@ exports.dataPush = (req, res) => {
 
                     logger.error("databse error");
                     logger.error(err);
-                    throw err
+                    res.status(500).json({
+
+                            "statusDesc": "Failure",
+                            "message" : err.message
+                    })
                     
                 }
                 });
