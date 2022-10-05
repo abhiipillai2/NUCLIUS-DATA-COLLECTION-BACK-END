@@ -1,23 +1,7 @@
-[2022-10-04T00:22:48.884] [INFO] NUCLIUS_DATA - Request reached from host ::1 and request packet :
-[2022-10-04T00:22:48.884] [INFO] NUCLIUS_DATA - {
-  hardware_id: 'DCSUB001',
-  data: { current: 'kj', voltage: '08', power: '9' }
-}
-[2022-10-04T00:22:48.884] [INFO] NUCLIUS_DATA - primary validation is failed
-[2022-10-04T00:31:09.328] [INFO] NUCLIUS_DATA - Request reached from host ::1 and request packet :
-[2022-10-04T00:31:09.329] [INFO] NUCLIUS_DATA - {
-  hardware_id: 'DCSUB001',
-  data: { current: '98', voltage: '08', power: '9' }
-}
-[2022-10-04T00:31:09.329] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
-[2022-10-04T00:31:09.329] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : DCSUB001
-[2022-10-04T00:31:09.329] [INFO] NUCLIUS_DATA - inserting current  = 98 | voltage = 08 | power = 9
-[2022-10-04T00:31:09.335] [INFO] NUCLIUS_DATA - connected id 203
-[2022-10-04T00:31:09.335] [INFO] NUCLIUS_DATA - sql query :INSERT INTO DCSUB001 SET id=?
-[2022-10-04T00:39:09.550] [INFO] NUCLIUS_DATA - checking node node environment
-[2022-10-04T00:39:09.553] [INFO] NUCLIUS_DATA - Found that node version is v16.14.2 and is adapt to the running
-[2022-10-04T00:39:09.553] [INFO] NUCLIUS_DATA - checking node modules on system | system get moduels values as ?
-[2022-10-04T00:39:09.553] [INFO] NUCLIUS_DATA - {
+[2022-10-05T15:52:34.706] [INFO] NUCLIUS_DATA - checking node node environment
+[2022-10-05T15:52:34.708] [INFO] NUCLIUS_DATA - Found that node version is v16.14.2 and is adapt to the running
+[2022-10-05T15:52:34.708] [INFO] NUCLIUS_DATA - checking node modules on system | system get moduels values as ?
+[2022-10-05T15:52:34.708] [INFO] NUCLIUS_DATA - {
   name: 'node',
   version: '1.0.0',
   description: 'R&D',
@@ -44,22 +28,28 @@
   },
   devDependencies: { nodemon: '^2.0.20' }
 }
-[2022-10-04T00:39:09.556] [INFO] NUCLIUS_DATA - printing port | port : 5080
-[2022-10-04T00:39:09.558] [INFO] NUCLIUS_DATA - checked all dependencies and server start successfully
-[2022-10-04T00:39:09.574] [INFO] NUCLIUS_DATA - setting mySql environment
-[2022-10-04T00:39:09.574] [INFO] NUCLIUS_DATA - checking version match with nodeJs
-[2022-10-04T00:39:09.574] [INFO] NUCLIUS_DATA - matched the versions
-[2022-10-04T00:39:09.574] [INFO] NUCLIUS_DATA - checking environmental variables
-[2022-10-04T00:39:09.575] [INFO] NUCLIUS_DATA - checking pool conection
-[2022-10-04T00:39:09.575] [INFO] NUCLIUS_DATA - geted primary pool | connection thred successfully iniated
-[2022-10-04T00:39:09.575] [INFO] NUCLIUS_DATA - connection time 133 MS
-[2022-10-04T00:39:09.575] [INFO] NUCLIUS_DATA - SQL:SELECT TEST 1
-[2022-10-04T00:39:09.575] [INFO] NUCLIUS_DATA - closing pool | getted maximum connection
-[2022-10-04T00:39:09.575] [INFO] NUCLIUS_DATA - database connection estblished sucessfully
-[2022-10-04T00:43:06.832] [INFO] NUCLIUS_DATA - checking node node environment
-[2022-10-04T00:43:06.836] [INFO] NUCLIUS_DATA - Found that node version is v16.14.2 and is adapt to the running
-[2022-10-04T00:43:06.836] [INFO] NUCLIUS_DATA - checking node modules on system | system get moduels values as ?
-[2022-10-04T00:43:06.836] [INFO] NUCLIUS_DATA - {
+[2022-10-05T15:52:34.711] [INFO] NUCLIUS_DATA - printing port | port : 5080
+[2022-10-05T15:52:34.713] [INFO] NUCLIUS_DATA - checked all dependencies and server start successfully
+[2022-10-05T15:52:34.723] [INFO] NUCLIUS_DATA - setting mySql environment
+[2022-10-05T15:52:34.723] [INFO] NUCLIUS_DATA - checking version match with nodeJs
+[2022-10-05T15:52:34.723] [INFO] NUCLIUS_DATA - matched the versions
+[2022-10-05T15:52:34.724] [INFO] NUCLIUS_DATA - checking environmental variables
+[2022-10-05T15:52:34.724] [INFO] NUCLIUS_DATA - checking pool conection
+[2022-10-05T15:52:34.724] [INFO] NUCLIUS_DATA - geted primary pool | connection thred successfully iniated
+[2022-10-05T15:52:34.724] [INFO] NUCLIUS_DATA - connection time 133 MS
+[2022-10-05T15:52:34.724] [INFO] NUCLIUS_DATA - SQL:SELECT TEST 1
+[2022-10-05T15:52:34.724] [INFO] NUCLIUS_DATA - closing pool | getted maximum connection
+[2022-10-05T15:52:34.724] [INFO] NUCLIUS_DATA - database connection estblished sucessfully
+[2022-10-05T15:52:36.909] [INFO] NUCLIUS_DATA - Request reached from host ::1 and request packet :
+[2022-10-05T15:52:36.909] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'DCSUB001',
+  data: { current: '8', voltage: '90', power: '10' }
+}
+[2022-10-05T15:52:36.910] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-05T15:53:58.830] [INFO] NUCLIUS_DATA - checking node node environment
+[2022-10-05T15:53:58.832] [INFO] NUCLIUS_DATA - Found that node version is v16.14.2 and is adapt to the running
+[2022-10-05T15:53:58.833] [INFO] NUCLIUS_DATA - checking node modules on system | system get moduels values as ?
+[2022-10-05T15:53:58.833] [INFO] NUCLIUS_DATA - {
   name: 'node',
   version: '1.0.0',
   description: 'R&D',
@@ -86,32 +76,28 @@
   },
   devDependencies: { nodemon: '^2.0.20' }
 }
-[2022-10-04T00:43:06.842] [INFO] NUCLIUS_DATA - printing port | port : 5080
-[2022-10-04T00:43:06.844] [INFO] NUCLIUS_DATA - checked all dependencies and server start successfully
-[2022-10-04T00:43:06.859] [INFO] NUCLIUS_DATA - setting mySql environment
-[2022-10-04T00:43:06.860] [INFO] NUCLIUS_DATA - checking version match with nodeJs
-[2022-10-04T00:43:06.860] [INFO] NUCLIUS_DATA - matched the versions
-[2022-10-04T00:43:06.860] [INFO] NUCLIUS_DATA - checking environmental variables
-[2022-10-04T00:43:06.860] [INFO] NUCLIUS_DATA - checking pool conection
-[2022-10-04T00:43:06.860] [INFO] NUCLIUS_DATA - geted primary pool | connection thred successfully iniated
-[2022-10-04T00:43:06.860] [INFO] NUCLIUS_DATA - connection time 133 MS
-[2022-10-04T00:43:06.860] [INFO] NUCLIUS_DATA - SQL:SELECT TEST 1
-[2022-10-04T00:43:06.860] [INFO] NUCLIUS_DATA - closing pool | getted maximum connection
-[2022-10-04T00:43:06.861] [INFO] NUCLIUS_DATA - database connection estblished sucessfully
-[2022-10-04T00:43:13.358] [INFO] NUCLIUS_DATA - Request reached from host ::1 and request packet :
-[2022-10-04T00:43:13.358] [INFO] NUCLIUS_DATA - {
+[2022-10-05T15:53:58.835] [INFO] NUCLIUS_DATA - printing port | port : 5080
+[2022-10-05T15:53:58.837] [INFO] NUCLIUS_DATA - checked all dependencies and server start successfully
+[2022-10-05T15:53:58.848] [INFO] NUCLIUS_DATA - setting mySql environment
+[2022-10-05T15:53:58.848] [INFO] NUCLIUS_DATA - checking version match with nodeJs
+[2022-10-05T15:53:58.849] [INFO] NUCLIUS_DATA - matched the versions
+[2022-10-05T15:53:58.849] [INFO] NUCLIUS_DATA - checking environmental variables
+[2022-10-05T15:53:58.849] [INFO] NUCLIUS_DATA - checking pool conection
+[2022-10-05T15:53:58.849] [INFO] NUCLIUS_DATA - geted primary pool | connection thred successfully iniated
+[2022-10-05T15:53:58.849] [INFO] NUCLIUS_DATA - connection time 133 MS
+[2022-10-05T15:53:58.849] [INFO] NUCLIUS_DATA - SQL:SELECT TEST 1
+[2022-10-05T15:53:58.849] [INFO] NUCLIUS_DATA - closing pool | getted maximum connection
+[2022-10-05T15:53:58.849] [INFO] NUCLIUS_DATA - database connection estblished sucessfully
+[2022-10-05T15:54:03.595] [INFO] NUCLIUS_DATA - Request reached from host ::1 and request packet :
+[2022-10-05T15:54:03.595] [INFO] NUCLIUS_DATA - {
   hardware_id: 'DCSUB001',
-  data: { current: '98', voltage: '08', power: '9' }
+  data: { current: '8', voltage: '90', power: '10' }
 }
-[2022-10-04T00:43:13.358] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
-[2022-10-04T00:43:13.358] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : DCSUB001
-[2022-10-04T00:43:13.359] [INFO] NUCLIUS_DATA - inserting current  = 98 | voltage = 08 | power = 9
-[2022-10-04T00:43:13.379] [INFO] NUCLIUS_DATA - connected id 224
-[2022-10-04T00:43:13.379] [INFO] NUCLIUS_DATA - sql query :INSERT INTO DCSUB001 SET id=?
-[2022-10-04T00:44:11.845] [INFO] NUCLIUS_DATA - checking node node environment
-[2022-10-04T00:44:11.847] [INFO] NUCLIUS_DATA - Found that node version is v16.14.2 and is adapt to the running
-[2022-10-04T00:44:11.847] [INFO] NUCLIUS_DATA - checking node modules on system | system get moduels values as ?
-[2022-10-04T00:44:11.847] [INFO] NUCLIUS_DATA - {
+[2022-10-05T15:54:03.596] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-05T15:55:31.496] [INFO] NUCLIUS_DATA - checking node node environment
+[2022-10-05T15:55:31.501] [INFO] NUCLIUS_DATA - Found that node version is v16.14.2 and is adapt to the running
+[2022-10-05T15:55:31.501] [INFO] NUCLIUS_DATA - checking node modules on system | system get moduels values as ?
+[2022-10-05T15:55:31.501] [INFO] NUCLIUS_DATA - {
   name: 'node',
   version: '1.0.0',
   description: 'R&D',
@@ -138,38 +124,23 @@
   },
   devDependencies: { nodemon: '^2.0.20' }
 }
-[2022-10-04T00:44:11.850] [INFO] NUCLIUS_DATA - printing port | port : 5080
-[2022-10-04T00:44:11.853] [INFO] NUCLIUS_DATA - checked all dependencies and server start successfully
-[2022-10-04T00:44:11.863] [INFO] NUCLIUS_DATA - setting mySql environment
-[2022-10-04T00:44:11.863] [INFO] NUCLIUS_DATA - checking version match with nodeJs
-[2022-10-04T00:44:11.863] [INFO] NUCLIUS_DATA - matched the versions
-[2022-10-04T00:44:11.864] [INFO] NUCLIUS_DATA - checking environmental variables
-[2022-10-04T00:44:11.864] [INFO] NUCLIUS_DATA - checking pool conection
-[2022-10-04T00:44:11.864] [INFO] NUCLIUS_DATA - geted primary pool | connection thred successfully iniated
-[2022-10-04T00:44:11.864] [INFO] NUCLIUS_DATA - connection time 133 MS
-[2022-10-04T00:44:11.864] [INFO] NUCLIUS_DATA - SQL:SELECT TEST 1
-[2022-10-04T00:44:11.864] [INFO] NUCLIUS_DATA - closing pool | getted maximum connection
-[2022-10-04T00:44:11.864] [INFO] NUCLIUS_DATA - database connection estblished sucessfully
-[2022-10-04T00:44:32.734] [INFO] NUCLIUS_DATA - Request reached from host ::1 and request packet :
-[2022-10-04T00:44:32.734] [INFO] NUCLIUS_DATA - {
-  hardware_id: 'DCSUB001',
-  data: { current: '98', voltage: 'MM', power: '9' }
-}
-[2022-10-04T00:44:32.735] [INFO] NUCLIUS_DATA - primary validation is failed
-[2022-10-04T00:44:40.026] [INFO] NUCLIUS_DATA - Request reached from host ::1 and request packet :
-[2022-10-04T00:44:40.027] [INFO] NUCLIUS_DATA - {
-  hardware_id: 'DCSUB001',
-  data: { current: '98', voltage: '09', power: '9' }
-}
-[2022-10-04T00:44:40.027] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
-[2022-10-04T00:44:40.027] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : DCSUB001
-[2022-10-04T00:44:40.027] [INFO] NUCLIUS_DATA - inserting current  = 98 | voltage = 09 | power = 9
-[2022-10-04T00:44:40.035] [INFO] NUCLIUS_DATA - connected id 226
-[2022-10-04T00:44:40.035] [INFO] NUCLIUS_DATA - sql query :INSERT INTO DCSUB001 SET id=?
-[2022-10-04T00:45:48.609] [INFO] NUCLIUS_DATA - checking node node environment
-[2022-10-04T00:45:48.612] [INFO] NUCLIUS_DATA - Found that node version is v16.14.2 and is adapt to the running
-[2022-10-04T00:45:48.612] [INFO] NUCLIUS_DATA - checking node modules on system | system get moduels values as ?
-[2022-10-04T00:45:48.612] [INFO] NUCLIUS_DATA - {
+[2022-10-05T15:55:31.505] [INFO] NUCLIUS_DATA - printing port | port : 5080
+[2022-10-05T15:55:31.508] [INFO] NUCLIUS_DATA - checked all dependencies and server start successfully
+[2022-10-05T15:55:31.541] [INFO] NUCLIUS_DATA - setting mySql environment
+[2022-10-05T15:55:31.542] [INFO] NUCLIUS_DATA - checking version match with nodeJs
+[2022-10-05T15:55:31.542] [INFO] NUCLIUS_DATA - matched the versions
+[2022-10-05T15:55:31.543] [INFO] NUCLIUS_DATA - checking environmental variables
+[2022-10-05T15:55:31.543] [INFO] NUCLIUS_DATA - checking pool conection
+[2022-10-05T15:55:31.543] [INFO] NUCLIUS_DATA - geted primary pool | connection thred successfully iniated
+[2022-10-05T15:55:31.543] [INFO] NUCLIUS_DATA - connection time 133 MS
+[2022-10-05T15:55:31.543] [INFO] NUCLIUS_DATA - SQL:SELECT TEST 1
+[2022-10-05T15:55:31.543] [INFO] NUCLIUS_DATA - closing pool | getted maximum connection
+[2022-10-05T15:55:31.544] [INFO] NUCLIUS_DATA - database connection estblished sucessfully
+[2022-10-05T15:55:40.520] [INFO] NUCLIUS_DATA - Request reached from host ::1 and request packet :
+[2022-10-05T15:56:43.725] [INFO] NUCLIUS_DATA - checking node node environment
+[2022-10-05T15:56:43.729] [INFO] NUCLIUS_DATA - Found that node version is v16.14.2 and is adapt to the running
+[2022-10-05T15:56:43.729] [INFO] NUCLIUS_DATA - checking node modules on system | system get moduels values as ?
+[2022-10-05T15:56:43.730] [INFO] NUCLIUS_DATA - {
   name: 'node',
   version: '1.0.0',
   description: 'R&D',
@@ -196,42 +167,25 @@
   },
   devDependencies: { nodemon: '^2.0.20' }
 }
-[2022-10-04T00:45:48.615] [INFO] NUCLIUS_DATA - printing port | port : 5080
-[2022-10-04T00:45:48.617] [INFO] NUCLIUS_DATA - checked all dependencies and server start successfully
-[2022-10-04T00:45:48.626] [INFO] NUCLIUS_DATA - setting mySql environment
-[2022-10-04T00:45:48.626] [INFO] NUCLIUS_DATA - checking version match with nodeJs
-[2022-10-04T00:45:48.627] [INFO] NUCLIUS_DATA - matched the versions
-[2022-10-04T00:45:48.627] [INFO] NUCLIUS_DATA - checking environmental variables
-[2022-10-04T00:45:48.627] [INFO] NUCLIUS_DATA - checking pool conection
-[2022-10-04T00:45:48.627] [INFO] NUCLIUS_DATA - geted primary pool | connection thred successfully iniated
-[2022-10-04T00:45:48.627] [INFO] NUCLIUS_DATA - connection time 133 MS
-[2022-10-04T00:45:48.627] [INFO] NUCLIUS_DATA - SQL:SELECT TEST 1
-[2022-10-04T00:45:48.627] [INFO] NUCLIUS_DATA - closing pool | getted maximum connection
-[2022-10-04T00:45:48.627] [INFO] NUCLIUS_DATA - database connection estblished sucessfully
-[2022-10-04T00:45:54.451] [INFO] NUCLIUS_DATA - Request reached from host ::1 and request packet :
-[2022-10-04T00:45:54.452] [INFO] NUCLIUS_DATA - {
-  hardware_id: 'DCSUB001',
-  data: { current: '98', voltage: '09', power: '9' }
-}
-[2022-10-04T00:45:54.452] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
-[2022-10-04T00:45:54.453] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : DCSUB001
-[2022-10-04T00:45:54.453] [INFO] NUCLIUS_DATA - inserting current  = 98 | voltage = 09 | power = 9
-[2022-10-04T00:45:54.464] [INFO] NUCLIUS_DATA - connected id 240
-[2022-10-04T00:45:54.464] [INFO] NUCLIUS_DATA - sql query :INSERT INTO DCSUB001 SET id=?
-[2022-10-04T00:46:12.705] [INFO] NUCLIUS_DATA - Request reached from host ::1 and request packet :
-[2022-10-04T00:46:12.705] [INFO] NUCLIUS_DATA - {
-  hardware_id: 'DCSUB001',
-  data: { current: '987', voltage: '09', power: '9' }
-}
-[2022-10-04T00:46:12.705] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
-[2022-10-04T00:46:12.705] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : DCSUB001
-[2022-10-04T00:46:12.705] [INFO] NUCLIUS_DATA - inserting current  = 987 | voltage = 09 | power = 9
-[2022-10-04T00:46:12.709] [INFO] NUCLIUS_DATA - connected id 240
-[2022-10-04T00:46:12.709] [INFO] NUCLIUS_DATA - sql query :INSERT INTO DCSUB001 SET id=?
-[2022-10-04T00:46:36.751] [INFO] NUCLIUS_DATA - checking node node environment
-[2022-10-04T00:46:36.753] [INFO] NUCLIUS_DATA - Found that node version is v16.14.2 and is adapt to the running
-[2022-10-04T00:46:36.753] [INFO] NUCLIUS_DATA - checking node modules on system | system get moduels values as ?
-[2022-10-04T00:46:36.753] [INFO] NUCLIUS_DATA - {
+[2022-10-05T15:56:43.735] [INFO] NUCLIUS_DATA - printing port | port : 5080
+[2022-10-05T15:56:43.737] [INFO] NUCLIUS_DATA - checked all dependencies and server start successfully
+[2022-10-05T15:56:43.750] [INFO] NUCLIUS_DATA - setting mySql environment
+[2022-10-05T15:56:43.750] [INFO] NUCLIUS_DATA - checking version match with nodeJs
+[2022-10-05T15:56:43.750] [INFO] NUCLIUS_DATA - matched the versions
+[2022-10-05T15:56:43.751] [INFO] NUCLIUS_DATA - checking environmental variables
+[2022-10-05T15:56:43.751] [INFO] NUCLIUS_DATA - checking pool conection
+[2022-10-05T15:56:43.751] [INFO] NUCLIUS_DATA - geted primary pool | connection thred successfully iniated
+[2022-10-05T15:56:43.751] [INFO] NUCLIUS_DATA - connection time 133 MS
+[2022-10-05T15:56:43.751] [INFO] NUCLIUS_DATA - SQL:SELECT TEST 1
+[2022-10-05T15:56:43.751] [INFO] NUCLIUS_DATA - closing pool | getted maximum connection
+[2022-10-05T15:56:43.751] [INFO] NUCLIUS_DATA - database connection estblished sucessfully
+[2022-10-05T15:56:52.089] [INFO] NUCLIUS_DATA - Request reached from host ::1 and request packet :
+[2022-10-05T15:56:52.089] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-05T15:56:52.089] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : DCSUB001
+[2022-10-05T15:57:45.511] [INFO] NUCLIUS_DATA - checking node node environment
+[2022-10-05T15:57:45.513] [INFO] NUCLIUS_DATA - Found that node version is v16.14.2 and is adapt to the running
+[2022-10-05T15:57:45.513] [INFO] NUCLIUS_DATA - checking node modules on system | system get moduels values as ?
+[2022-10-05T15:57:45.513] [INFO] NUCLIUS_DATA - {
   name: 'node',
   version: '1.0.0',
   description: 'R&D',
@@ -258,84 +212,81 @@
   },
   devDependencies: { nodemon: '^2.0.20' }
 }
-[2022-10-04T00:46:36.756] [INFO] NUCLIUS_DATA - printing port | port : 5080
-[2022-10-04T00:46:36.758] [INFO] NUCLIUS_DATA - checked all dependencies and server start successfully
-[2022-10-04T00:46:36.929] [INFO] NUCLIUS_DATA - setting mySql environment
-[2022-10-04T00:46:36.930] [INFO] NUCLIUS_DATA - checking version match with nodeJs
-[2022-10-04T00:46:36.931] [INFO] NUCLIUS_DATA - matched the versions
-[2022-10-04T00:46:36.935] [INFO] NUCLIUS_DATA - checking environmental variables
-[2022-10-04T00:46:36.935] [INFO] NUCLIUS_DATA - checking pool conection
-[2022-10-04T00:46:36.936] [INFO] NUCLIUS_DATA - geted primary pool | connection thred successfully iniated
-[2022-10-04T00:46:36.936] [INFO] NUCLIUS_DATA - connection time 133 MS
-[2022-10-04T00:46:36.937] [INFO] NUCLIUS_DATA - SQL:SELECT TEST 1
-[2022-10-04T00:46:36.938] [INFO] NUCLIUS_DATA - closing pool | getted maximum connection
-[2022-10-04T00:46:36.940] [INFO] NUCLIUS_DATA - database connection estblished sucessfully
-[2022-10-04T00:46:44.161] [INFO] NUCLIUS_DATA - Request reached from host ::1 and request packet :
-[2022-10-04T00:46:44.161] [INFO] NUCLIUS_DATA - {
+[2022-10-05T15:57:45.517] [INFO] NUCLIUS_DATA - printing port | port : 5080
+[2022-10-05T15:57:45.519] [INFO] NUCLIUS_DATA - checked all dependencies and server start successfully
+[2022-10-05T15:57:45.527] [INFO] NUCLIUS_DATA - setting mySql environment
+[2022-10-05T15:57:45.528] [INFO] NUCLIUS_DATA - checking version match with nodeJs
+[2022-10-05T15:57:45.528] [INFO] NUCLIUS_DATA - matched the versions
+[2022-10-05T15:57:45.528] [INFO] NUCLIUS_DATA - checking environmental variables
+[2022-10-05T15:57:45.528] [INFO] NUCLIUS_DATA - checking pool conection
+[2022-10-05T15:57:45.528] [INFO] NUCLIUS_DATA - geted primary pool | connection thred successfully iniated
+[2022-10-05T15:57:45.528] [INFO] NUCLIUS_DATA - connection time 133 MS
+[2022-10-05T15:57:45.528] [INFO] NUCLIUS_DATA - SQL:SELECT TEST 1
+[2022-10-05T15:57:45.528] [INFO] NUCLIUS_DATA - closing pool | getted maximum connection
+[2022-10-05T15:57:45.529] [INFO] NUCLIUS_DATA - database connection estblished sucessfully
+[2022-10-05T15:57:56.704] [INFO] NUCLIUS_DATA - checking node node environment
+[2022-10-05T15:57:56.706] [INFO] NUCLIUS_DATA - Found that node version is v16.14.2 and is adapt to the running
+[2022-10-05T15:57:56.706] [INFO] NUCLIUS_DATA - checking node modules on system | system get moduels values as ?
+[2022-10-05T15:57:56.706] [INFO] NUCLIUS_DATA - {
+  name: 'node',
+  version: '1.0.0',
+  description: 'R&D',
+  main: 'app.js',
+  scripts: { start: 'nodemon app.js' },
+  repository: {
+    type: 'git',
+    url: 'git+https://github.com/abhiipillai2/NUCLIUS-DATA-COLLECTION-BACK-END.git'
+  },
+  author: 'ATOM DEVELOPERS',
+  license: 'ISC',
+  bugs: {
+    url: 'https://github.com/abhiipillai2/NUCLIUS-DATA-COLLECTION-BACK-END/issues'
+  },
+  homepage: 'https://github.com/abhiipillai2/NUCLIUS-DATA-COLLECTION-BACK-END#readme',
+  dependencies: {
+    'body-parser': '^1.20.0',
+    cors: '^2.8.5',
+    dotenv: '^16.0.2',
+    express: '^4.18.1',
+    log4js: '^6.6.1',
+    momment: '^0.0.1',
+    mysql: '^2.18.1'
+  },
+  devDependencies: { nodemon: '^2.0.20' }
+}
+[2022-10-05T15:57:56.710] [INFO] NUCLIUS_DATA - printing port | port : 5080
+[2022-10-05T15:57:56.712] [INFO] NUCLIUS_DATA - checked all dependencies and server start successfully
+[2022-10-05T15:57:56.731] [INFO] NUCLIUS_DATA - setting mySql environment
+[2022-10-05T15:57:56.732] [INFO] NUCLIUS_DATA - checking version match with nodeJs
+[2022-10-05T15:57:56.732] [INFO] NUCLIUS_DATA - matched the versions
+[2022-10-05T15:57:56.733] [INFO] NUCLIUS_DATA - checking environmental variables
+[2022-10-05T15:57:56.733] [INFO] NUCLIUS_DATA - checking pool conection
+[2022-10-05T15:57:56.733] [INFO] NUCLIUS_DATA - geted primary pool | connection thred successfully iniated
+[2022-10-05T15:57:56.733] [INFO] NUCLIUS_DATA - connection time 133 MS
+[2022-10-05T15:57:56.733] [INFO] NUCLIUS_DATA - SQL:SELECT TEST 1
+[2022-10-05T15:57:56.733] [INFO] NUCLIUS_DATA - closing pool | getted maximum connection
+[2022-10-05T15:57:56.733] [INFO] NUCLIUS_DATA - database connection estblished sucessfully
+[2022-10-05T15:57:58.022] [INFO] NUCLIUS_DATA - Request reached from host ::1 and request packet :
+[2022-10-05T15:57:58.022] [INFO] NUCLIUS_DATA - {
   hardware_id: 'DCSUB001',
-  data: { current: '987', voltage: '09', power: '789' }
+  data: { current: '8', voltage: '90', power: '10' }
 }
-[2022-10-04T00:46:44.162] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
-[2022-10-04T00:46:44.162] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : DCSUB001
-[2022-10-04T00:46:44.162] [INFO] NUCLIUS_DATA - inserting current  = 987 | voltage = 09 | power = 789
-[2022-10-04T00:46:44.177] [INFO] NUCLIUS_DATA - connected id 266
-[2022-10-04T00:46:44.177] [INFO] NUCLIUS_DATA - sql query :INSERT INTO DCSUB001 SET id=?
-[2022-10-04T00:47:11.148] [INFO] NUCLIUS_DATA - checking node node environment
-[2022-10-04T00:47:11.150] [INFO] NUCLIUS_DATA - Found that node version is v16.14.2 and is adapt to the running
-[2022-10-04T00:47:11.150] [INFO] NUCLIUS_DATA - checking node modules on system | system get moduels values as ?
-[2022-10-04T00:47:11.151] [INFO] NUCLIUS_DATA - {
-  name: 'node',
-  version: '1.0.0',
-  description: 'R&D',
-  main: 'app.js',
-  scripts: { start: 'nodemon app.js' },
-  repository: {
-    type: 'git',
-    url: 'git+https://github.com/abhiipillai2/NUCLIUS-DATA-COLLECTION-BACK-END.git'
-  },
-  author: 'ATOM DEVELOPERS',
-  license: 'ISC',
-  bugs: {
-    url: 'https://github.com/abhiipillai2/NUCLIUS-DATA-COLLECTION-BACK-END/issues'
-  },
-  homepage: 'https://github.com/abhiipillai2/NUCLIUS-DATA-COLLECTION-BACK-END#readme',
-  dependencies: {
-    'body-parser': '^1.20.0',
-    cors: '^2.8.5',
-    dotenv: '^16.0.2',
-    express: '^4.18.1',
-    log4js: '^6.6.1',
-    momment: '^0.0.1',
-    mysql: '^2.18.1'
-  },
-  devDependencies: { nodemon: '^2.0.20' }
-}
-[2022-10-04T00:47:11.159] [INFO] NUCLIUS_DATA - printing port | port : 5080
-[2022-10-04T00:47:11.161] [INFO] NUCLIUS_DATA - checked all dependencies and server start successfully
-[2022-10-04T00:47:11.199] [INFO] NUCLIUS_DATA - setting mySql environment
-[2022-10-04T00:47:11.199] [INFO] NUCLIUS_DATA - checking version match with nodeJs
-[2022-10-04T00:47:11.200] [INFO] NUCLIUS_DATA - matched the versions
-[2022-10-04T00:47:11.200] [INFO] NUCLIUS_DATA - checking environmental variables
-[2022-10-04T00:47:11.201] [INFO] NUCLIUS_DATA - checking pool conection
-[2022-10-04T00:47:11.201] [INFO] NUCLIUS_DATA - geted primary pool | connection thred successfully iniated
-[2022-10-04T00:47:11.201] [INFO] NUCLIUS_DATA - connection time 133 MS
-[2022-10-04T00:47:11.201] [INFO] NUCLIUS_DATA - SQL:SELECT TEST 1
-[2022-10-04T00:47:11.201] [INFO] NUCLIUS_DATA - closing pool | getted maximum connection
-[2022-10-04T00:47:11.201] [INFO] NUCLIUS_DATA - database connection estblished sucessfully
-[2022-10-04T00:47:14.467] [INFO] NUCLIUS_DATA - Request reached from host ::1 and request packet :
-[2022-10-04T00:47:14.468] [INFO] NUCLIUS_DATA - {
+[2022-10-05T15:57:58.023] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-05T15:57:58.023] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : DCSUB001
+[2022-10-05T15:57:58.023] [INFO] NUCLIUS_DATA - inserting current  = 8 | voltage = 90 | power = 10
+[2022-10-05T15:57:58.027] [INFO] NUCLIUS_DATA - connected id 100
+[2022-10-05T15:57:58.027] [INFO] NUCLIUS_DATA - sql query :INSERT INTO DCSUB001 SET seq_id=?
+[2022-10-05T15:57:58.048] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-05T15:58:03.270] [INFO] NUCLIUS_DATA - Request reached from host ::1 and request packet :
+[2022-10-05T15:58:03.270] [INFO] NUCLIUS_DATA - {
   hardware_id: 'DCSUB001',
-  data: { current: '987', voltage: '09', power: '789' }
+  data: { current: 'as', voltage: '90', power: '10' }
 }
-[2022-10-04T00:47:14.468] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
-[2022-10-04T00:47:14.468] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : DCSUB001
-[2022-10-04T00:47:14.469] [INFO] NUCLIUS_DATA - inserting current  = 987 | voltage = 09 | power = 789
-[2022-10-04T00:47:14.476] [INFO] NUCLIUS_DATA - connected id 296
-[2022-10-04T00:47:14.476] [INFO] NUCLIUS_DATA - sql query :INSERT INTO DCSUB001 SET id=?
-[2022-10-04T00:47:51.864] [INFO] NUCLIUS_DATA - checking node node environment
-[2022-10-04T00:47:51.867] [INFO] NUCLIUS_DATA - Found that node version is v16.14.2 and is adapt to the running
-[2022-10-04T00:47:51.867] [INFO] NUCLIUS_DATA - checking node modules on system | system get moduels values as ?
-[2022-10-04T00:47:51.867] [INFO] NUCLIUS_DATA - {
+[2022-10-05T15:58:03.271] [INFO] NUCLIUS_DATA - primary validation is failed
+[2022-10-05T15:59:06.238] [INFO] NUCLIUS_DATA - checking node node environment
+[2022-10-05T15:59:06.240] [INFO] NUCLIUS_DATA - Found that node version is v16.14.2 and is adapt to the running
+[2022-10-05T15:59:06.240] [INFO] NUCLIUS_DATA - checking node modules on system | system get moduels values as ?
+[2022-10-05T15:59:06.241] [INFO] NUCLIUS_DATA - {
   name: 'node',
   version: '1.0.0',
   description: 'R&D',
@@ -362,22 +313,22 @@
   },
   devDependencies: { nodemon: '^2.0.20' }
 }
-[2022-10-04T00:47:51.870] [INFO] NUCLIUS_DATA - printing port | port : 5080
-[2022-10-04T00:47:51.871] [INFO] NUCLIUS_DATA - checked all dependencies and server start successfully
-[2022-10-04T00:47:51.887] [INFO] NUCLIUS_DATA - setting mySql environment
-[2022-10-04T00:47:51.887] [INFO] NUCLIUS_DATA - checking version match with nodeJs
-[2022-10-04T00:47:51.887] [INFO] NUCLIUS_DATA - matched the versions
-[2022-10-04T00:47:51.888] [INFO] NUCLIUS_DATA - checking environmental variables
-[2022-10-04T00:47:51.888] [INFO] NUCLIUS_DATA - checking pool conection
-[2022-10-04T00:47:51.888] [INFO] NUCLIUS_DATA - geted primary pool | connection thred successfully iniated
-[2022-10-04T00:47:51.888] [INFO] NUCLIUS_DATA - connection time 133 MS
-[2022-10-04T00:47:51.888] [INFO] NUCLIUS_DATA - SQL:SELECT TEST 1
-[2022-10-04T00:47:51.888] [INFO] NUCLIUS_DATA - closing pool | getted maximum connection
-[2022-10-04T00:47:51.888] [INFO] NUCLIUS_DATA - database connection estblished sucessfully
-[2022-10-04T00:48:02.273] [INFO] NUCLIUS_DATA - checking node node environment
-[2022-10-04T00:48:02.276] [INFO] NUCLIUS_DATA - Found that node version is v16.14.2 and is adapt to the running
-[2022-10-04T00:48:02.276] [INFO] NUCLIUS_DATA - checking node modules on system | system get moduels values as ?
-[2022-10-04T00:48:02.276] [INFO] NUCLIUS_DATA - {
+[2022-10-05T15:59:06.243] [INFO] NUCLIUS_DATA - printing port | port : 5080
+[2022-10-05T15:59:06.245] [INFO] NUCLIUS_DATA - checked all dependencies and server start successfully
+[2022-10-05T15:59:06.255] [INFO] NUCLIUS_DATA - setting mySql environment
+[2022-10-05T15:59:06.255] [INFO] NUCLIUS_DATA - checking version match with nodeJs
+[2022-10-05T15:59:06.255] [INFO] NUCLIUS_DATA - matched the versions
+[2022-10-05T15:59:06.255] [INFO] NUCLIUS_DATA - checking environmental variables
+[2022-10-05T15:59:06.256] [INFO] NUCLIUS_DATA - checking pool conection
+[2022-10-05T15:59:06.256] [INFO] NUCLIUS_DATA - geted primary pool | connection thred successfully iniated
+[2022-10-05T15:59:06.256] [INFO] NUCLIUS_DATA - connection time 133 MS
+[2022-10-05T15:59:06.256] [INFO] NUCLIUS_DATA - SQL:SELECT TEST 1
+[2022-10-05T15:59:06.256] [INFO] NUCLIUS_DATA - closing pool | getted maximum connection
+[2022-10-05T15:59:06.256] [INFO] NUCLIUS_DATA - database connection estblished sucessfully
+[2022-10-05T15:59:14.700] [INFO] NUCLIUS_DATA - checking node node environment
+[2022-10-05T15:59:14.703] [INFO] NUCLIUS_DATA - Found that node version is v16.14.2 and is adapt to the running
+[2022-10-05T15:59:14.703] [INFO] NUCLIUS_DATA - checking node modules on system | system get moduels values as ?
+[2022-10-05T15:59:14.703] [INFO] NUCLIUS_DATA - {
   name: 'node',
   version: '1.0.0',
   description: 'R&D',
@@ -404,32 +355,28 @@
   },
   devDependencies: { nodemon: '^2.0.20' }
 }
-[2022-10-04T00:48:02.282] [INFO] NUCLIUS_DATA - printing port | port : 5080
-[2022-10-04T00:48:02.283] [INFO] NUCLIUS_DATA - checked all dependencies and server start successfully
-[2022-10-04T00:48:02.303] [INFO] NUCLIUS_DATA - setting mySql environment
-[2022-10-04T00:48:02.303] [INFO] NUCLIUS_DATA - checking version match with nodeJs
-[2022-10-04T00:48:02.303] [INFO] NUCLIUS_DATA - matched the versions
-[2022-10-04T00:48:02.304] [INFO] NUCLIUS_DATA - checking environmental variables
-[2022-10-04T00:48:02.304] [INFO] NUCLIUS_DATA - checking pool conection
-[2022-10-04T00:48:02.304] [INFO] NUCLIUS_DATA - geted primary pool | connection thred successfully iniated
-[2022-10-04T00:48:02.304] [INFO] NUCLIUS_DATA - connection time 133 MS
-[2022-10-04T00:48:02.304] [INFO] NUCLIUS_DATA - SQL:SELECT TEST 1
-[2022-10-04T00:48:02.304] [INFO] NUCLIUS_DATA - closing pool | getted maximum connection
-[2022-10-04T00:48:02.304] [INFO] NUCLIUS_DATA - database connection estblished sucessfully
-[2022-10-04T00:48:06.037] [INFO] NUCLIUS_DATA - Request reached from host ::1 and request packet :
-[2022-10-04T00:48:06.037] [INFO] NUCLIUS_DATA - {
+[2022-10-05T15:59:14.707] [INFO] NUCLIUS_DATA - printing port | port : 5080
+[2022-10-05T15:59:14.709] [INFO] NUCLIUS_DATA - checked all dependencies and server start successfully
+[2022-10-05T15:59:14.720] [INFO] NUCLIUS_DATA - setting mySql environment
+[2022-10-05T15:59:14.720] [INFO] NUCLIUS_DATA - checking version match with nodeJs
+[2022-10-05T15:59:14.720] [INFO] NUCLIUS_DATA - matched the versions
+[2022-10-05T15:59:14.720] [INFO] NUCLIUS_DATA - checking environmental variables
+[2022-10-05T15:59:14.721] [INFO] NUCLIUS_DATA - checking pool conection
+[2022-10-05T15:59:14.721] [INFO] NUCLIUS_DATA - geted primary pool | connection thred successfully iniated
+[2022-10-05T15:59:14.721] [INFO] NUCLIUS_DATA - connection time 133 MS
+[2022-10-05T15:59:14.721] [INFO] NUCLIUS_DATA - SQL:SELECT TEST 1
+[2022-10-05T15:59:14.721] [INFO] NUCLIUS_DATA - closing pool | getted maximum connection
+[2022-10-05T15:59:14.721] [INFO] NUCLIUS_DATA - database connection estblished sucessfully
+[2022-10-05T15:59:16.168] [INFO] NUCLIUS_DATA - Request reached from host ::1 and request packet :
+[2022-10-05T15:59:16.168] [INFO] NUCLIUS_DATA - {
   hardware_id: 'DCSUB001',
-  data: { current: '987', voltage: '09', power: '789' }
+  data: { current: '90', voltage: '90', power: '10' }
 }
-[2022-10-04T00:48:06.045] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
-[2022-10-04T00:48:06.045] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : DCSUB001
-[2022-10-04T00:48:06.045] [INFO] NUCLIUS_DATA - inserting current  = 987 | voltage = 09 | power = 789
-[2022-10-04T00:48:06.328] [INFO] NUCLIUS_DATA - connected id 311
-[2022-10-04T00:48:06.330] [INFO] NUCLIUS_DATA - sql query :INSERT INTO DCSUB001 SET seq_id=?
-[2022-10-04T00:48:39.509] [INFO] NUCLIUS_DATA - checking node node environment
-[2022-10-04T00:48:39.513] [INFO] NUCLIUS_DATA - Found that node version is v16.14.2 and is adapt to the running
-[2022-10-04T00:48:39.513] [INFO] NUCLIUS_DATA - checking node modules on system | system get moduels values as ?
-[2022-10-04T00:48:39.513] [INFO] NUCLIUS_DATA - {
+[2022-10-05T15:59:16.169] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-05T15:59:27.358] [INFO] NUCLIUS_DATA - checking node node environment
+[2022-10-05T15:59:27.360] [INFO] NUCLIUS_DATA - Found that node version is v16.14.2 and is adapt to the running
+[2022-10-05T15:59:27.360] [INFO] NUCLIUS_DATA - checking node modules on system | system get moduels values as ?
+[2022-10-05T15:59:27.361] [INFO] NUCLIUS_DATA - {
   name: 'node',
   version: '1.0.0',
   description: 'R&D',
@@ -456,84 +403,33 @@
   },
   devDependencies: { nodemon: '^2.0.20' }
 }
-[2022-10-04T00:48:39.519] [INFO] NUCLIUS_DATA - printing port | port : 5080
-[2022-10-04T00:48:39.522] [INFO] NUCLIUS_DATA - checked all dependencies and server start successfully
-[2022-10-04T00:48:39.551] [INFO] NUCLIUS_DATA - setting mySql environment
-[2022-10-04T00:48:39.551] [INFO] NUCLIUS_DATA - checking version match with nodeJs
-[2022-10-04T00:48:39.552] [INFO] NUCLIUS_DATA - matched the versions
-[2022-10-04T00:48:39.552] [INFO] NUCLIUS_DATA - checking environmental variables
-[2022-10-04T00:48:39.552] [INFO] NUCLIUS_DATA - checking pool conection
-[2022-10-04T00:48:39.552] [INFO] NUCLIUS_DATA - geted primary pool | connection thred successfully iniated
-[2022-10-04T00:48:39.552] [INFO] NUCLIUS_DATA - connection time 133 MS
-[2022-10-04T00:48:39.552] [INFO] NUCLIUS_DATA - SQL:SELECT TEST 1
-[2022-10-04T00:48:39.552] [INFO] NUCLIUS_DATA - closing pool | getted maximum connection
-[2022-10-04T00:48:39.552] [INFO] NUCLIUS_DATA - database connection estblished sucessfully
-[2022-10-04T00:49:13.386] [INFO] NUCLIUS_DATA - checking node node environment
-[2022-10-04T00:49:13.388] [INFO] NUCLIUS_DATA - Found that node version is v16.14.2 and is adapt to the running
-[2022-10-04T00:49:13.388] [INFO] NUCLIUS_DATA - checking node modules on system | system get moduels values as ?
-[2022-10-04T00:49:13.389] [INFO] NUCLIUS_DATA - {
-  name: 'node',
-  version: '1.0.0',
-  description: 'R&D',
-  main: 'app.js',
-  scripts: { start: 'nodemon app.js' },
-  repository: {
-    type: 'git',
-    url: 'git+https://github.com/abhiipillai2/NUCLIUS-DATA-COLLECTION-BACK-END.git'
-  },
-  author: 'ATOM DEVELOPERS',
-  license: 'ISC',
-  bugs: {
-    url: 'https://github.com/abhiipillai2/NUCLIUS-DATA-COLLECTION-BACK-END/issues'
-  },
-  homepage: 'https://github.com/abhiipillai2/NUCLIUS-DATA-COLLECTION-BACK-END#readme',
-  dependencies: {
-    'body-parser': '^1.20.0',
-    cors: '^2.8.5',
-    dotenv: '^16.0.2',
-    express: '^4.18.1',
-    log4js: '^6.6.1',
-    momment: '^0.0.1',
-    mysql: '^2.18.1'
-  },
-  devDependencies: { nodemon: '^2.0.20' }
-}
-[2022-10-04T00:49:13.391] [INFO] NUCLIUS_DATA - printing port | port : 5080
-[2022-10-04T00:49:13.393] [INFO] NUCLIUS_DATA - checked all dependencies and server start successfully
-[2022-10-04T00:49:13.406] [INFO] NUCLIUS_DATA - setting mySql environment
-[2022-10-04T00:49:13.406] [INFO] NUCLIUS_DATA - checking version match with nodeJs
-[2022-10-04T00:49:13.406] [INFO] NUCLIUS_DATA - matched the versions
-[2022-10-04T00:49:13.407] [INFO] NUCLIUS_DATA - checking environmental variables
-[2022-10-04T00:49:13.407] [INFO] NUCLIUS_DATA - checking pool conection
-[2022-10-04T00:49:13.407] [INFO] NUCLIUS_DATA - geted primary pool | connection thred successfully iniated
-[2022-10-04T00:49:13.407] [INFO] NUCLIUS_DATA - connection time 133 MS
-[2022-10-04T00:49:13.407] [INFO] NUCLIUS_DATA - SQL:SELECT TEST 1
-[2022-10-04T00:49:13.407] [INFO] NUCLIUS_DATA - closing pool | getted maximum connection
-[2022-10-04T00:49:13.407] [INFO] NUCLIUS_DATA - database connection estblished sucessfully
-[2022-10-04T00:53:10.814] [INFO] NUCLIUS_DATA - Request reached from host ::1 and request packet :
-[2022-10-04T00:53:10.814] [INFO] NUCLIUS_DATA - {
+[2022-10-05T15:59:27.364] [INFO] NUCLIUS_DATA - printing port | port : 5080
+[2022-10-05T15:59:27.366] [INFO] NUCLIUS_DATA - checked all dependencies and server start successfully
+[2022-10-05T15:59:27.375] [INFO] NUCLIUS_DATA - setting mySql environment
+[2022-10-05T15:59:27.376] [INFO] NUCLIUS_DATA - checking version match with nodeJs
+[2022-10-05T15:59:27.376] [INFO] NUCLIUS_DATA - matched the versions
+[2022-10-05T15:59:27.376] [INFO] NUCLIUS_DATA - checking environmental variables
+[2022-10-05T15:59:27.377] [INFO] NUCLIUS_DATA - checking pool conection
+[2022-10-05T15:59:27.377] [INFO] NUCLIUS_DATA - geted primary pool | connection thred successfully iniated
+[2022-10-05T15:59:27.377] [INFO] NUCLIUS_DATA - connection time 133 MS
+[2022-10-05T15:59:27.377] [INFO] NUCLIUS_DATA - SQL:SELECT TEST 1
+[2022-10-05T15:59:27.377] [INFO] NUCLIUS_DATA - closing pool | getted maximum connection
+[2022-10-05T15:59:27.377] [INFO] NUCLIUS_DATA - database connection estblished sucessfully
+[2022-10-05T16:00:27.712] [INFO] NUCLIUS_DATA - Request reached from host ::1 and request packet :
+[2022-10-05T16:00:27.712] [INFO] NUCLIUS_DATA - {
   hardware_id: 'DCSUB001',
-  data: { current: '987', voltage: '9.9', power: '789' }
+  data: { current: '90', voltage: '90', power: '10' }
 }
-[2022-10-04T00:53:10.815] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
-[2022-10-04T00:53:10.815] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : DCSUB001
-[2022-10-04T00:53:10.815] [INFO] NUCLIUS_DATA - inserting current  = 987 | voltage = 9.9 | power = 789
-[2022-10-04T00:53:10.834] [INFO] NUCLIUS_DATA - connected id 340
-[2022-10-04T00:53:10.834] [INFO] NUCLIUS_DATA - sql query :INSERT INTO DCSUB001 SET seq_id=?
-[2022-10-04T00:56:28.995] [INFO] NUCLIUS_DATA - Request reached from host ::1 and request packet :
-[2022-10-04T00:56:28.995] [INFO] NUCLIUS_DATA - {
-  hardware_id: 'DCSUB001',
-  data: { current: '987', voltage: '9.9', power: '789' }
-}
-[2022-10-04T00:56:28.995] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
-[2022-10-04T00:56:28.995] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : DCSUB001
-[2022-10-04T00:56:28.995] [INFO] NUCLIUS_DATA - inserting current  = 987 | voltage = 9.9 | power = 789
-[2022-10-04T00:56:29.000] [INFO] NUCLIUS_DATA - connected id 340
-[2022-10-04T00:56:29.000] [INFO] NUCLIUS_DATA - sql query :INSERT INTO DCSUB001 SET seq_id=?
-[2022-10-04T00:56:51.000] [INFO] NUCLIUS_DATA - checking node node environment
-[2022-10-04T00:56:51.002] [INFO] NUCLIUS_DATA - Found that node version is v16.14.2 and is adapt to the running
-[2022-10-04T00:56:51.002] [INFO] NUCLIUS_DATA - checking node modules on system | system get moduels values as ?
-[2022-10-04T00:56:51.002] [INFO] NUCLIUS_DATA - {
+[2022-10-05T16:00:27.713] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-05T16:00:27.713] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : DCSUB001
+[2022-10-05T16:00:27.713] [INFO] NUCLIUS_DATA - inserting current  = 90 | voltage = 90 | power = 10
+[2022-10-05T16:00:27.717] [INFO] NUCLIUS_DATA - connected id 105
+[2022-10-05T16:00:27.717] [INFO] NUCLIUS_DATA - sql query :INSERT INTO DCSUB001 SET seq_id=?
+[2022-10-05T16:00:27.736] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-05T16:01:07.337] [INFO] NUCLIUS_DATA - checking node node environment
+[2022-10-05T16:01:07.339] [INFO] NUCLIUS_DATA - Found that node version is v16.14.2 and is adapt to the running
+[2022-10-05T16:01:07.340] [INFO] NUCLIUS_DATA - checking node modules on system | system get moduels values as ?
+[2022-10-05T16:01:07.340] [INFO] NUCLIUS_DATA - {
   name: 'node',
   version: '1.0.0',
   description: 'R&D',
@@ -560,32 +456,22 @@
   },
   devDependencies: { nodemon: '^2.0.20' }
 }
-[2022-10-04T00:56:51.008] [INFO] NUCLIUS_DATA - printing port | port : 5080
-[2022-10-04T00:56:51.011] [INFO] NUCLIUS_DATA - checked all dependencies and server start successfully
-[2022-10-04T00:56:51.021] [INFO] NUCLIUS_DATA - setting mySql environment
-[2022-10-04T00:56:51.022] [INFO] NUCLIUS_DATA - checking version match with nodeJs
-[2022-10-04T00:56:51.022] [INFO] NUCLIUS_DATA - matched the versions
-[2022-10-04T00:56:51.023] [INFO] NUCLIUS_DATA - checking environmental variables
-[2022-10-04T00:56:51.023] [INFO] NUCLIUS_DATA - checking pool conection
-[2022-10-04T00:56:51.023] [INFO] NUCLIUS_DATA - geted primary pool | connection thred successfully iniated
-[2022-10-04T00:56:51.023] [INFO] NUCLIUS_DATA - connection time 133 MS
-[2022-10-04T00:56:51.023] [INFO] NUCLIUS_DATA - SQL:SELECT TEST 1
-[2022-10-04T00:56:51.023] [INFO] NUCLIUS_DATA - closing pool | getted maximum connection
-[2022-10-04T00:56:51.023] [INFO] NUCLIUS_DATA - database connection estblished sucessfully
-[2022-10-04T00:56:52.564] [INFO] NUCLIUS_DATA - Request reached from host ::1 and request packet :
-[2022-10-04T00:56:52.564] [INFO] NUCLIUS_DATA - {
-  hardware_id: 'DCSUB001',
-  data: { current: '987', voltage: '9.9', power: '789' }
-}
-[2022-10-04T00:56:52.566] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
-[2022-10-04T00:56:52.566] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : DCSUB001
-[2022-10-04T00:56:52.566] [INFO] NUCLIUS_DATA - inserting current  = 987 | voltage = 9.9 | power = 789
-[2022-10-04T00:56:52.653] [INFO] NUCLIUS_DATA - connected id 380
-[2022-10-04T00:56:52.653] [INFO] NUCLIUS_DATA - sql query :INSERT INTO DCSUB001 SET seq_id=?
-[2022-10-04T00:57:20.314] [INFO] NUCLIUS_DATA - checking node node environment
-[2022-10-04T00:57:20.316] [INFO] NUCLIUS_DATA - Found that node version is v16.14.2 and is adapt to the running
-[2022-10-04T00:57:20.316] [INFO] NUCLIUS_DATA - checking node modules on system | system get moduels values as ?
-[2022-10-04T00:57:20.316] [INFO] NUCLIUS_DATA - {
+[2022-10-05T16:01:07.343] [INFO] NUCLIUS_DATA - printing port | port : 5080
+[2022-10-05T16:01:07.345] [INFO] NUCLIUS_DATA - checked all dependencies and server start successfully
+[2022-10-05T16:01:07.361] [INFO] NUCLIUS_DATA - setting mySql environment
+[2022-10-05T16:01:07.362] [INFO] NUCLIUS_DATA - checking version match with nodeJs
+[2022-10-05T16:01:07.362] [INFO] NUCLIUS_DATA - matched the versions
+[2022-10-05T16:01:07.362] [INFO] NUCLIUS_DATA - checking environmental variables
+[2022-10-05T16:01:07.363] [INFO] NUCLIUS_DATA - checking pool conection
+[2022-10-05T16:01:07.363] [INFO] NUCLIUS_DATA - geted primary pool | connection thred successfully iniated
+[2022-10-05T16:01:07.363] [INFO] NUCLIUS_DATA - connection time 133 MS
+[2022-10-05T16:01:07.363] [INFO] NUCLIUS_DATA - SQL:SELECT TEST 1
+[2022-10-05T16:01:07.363] [INFO] NUCLIUS_DATA - closing pool | getted maximum connection
+[2022-10-05T16:01:07.363] [INFO] NUCLIUS_DATA - database connection estblished sucessfully
+[2022-10-05T16:01:19.481] [INFO] NUCLIUS_DATA - checking node node environment
+[2022-10-05T16:01:19.483] [INFO] NUCLIUS_DATA - Found that node version is v16.14.2 and is adapt to the running
+[2022-10-05T16:01:19.483] [INFO] NUCLIUS_DATA - checking node modules on system | system get moduels values as ?
+[2022-10-05T16:01:19.483] [INFO] NUCLIUS_DATA - {
   name: 'node',
   version: '1.0.0',
   description: 'R&D',
@@ -612,32 +498,34 @@
   },
   devDependencies: { nodemon: '^2.0.20' }
 }
-[2022-10-04T00:57:20.319] [INFO] NUCLIUS_DATA - printing port | port : 5080
-[2022-10-04T00:57:20.321] [INFO] NUCLIUS_DATA - checked all dependencies and server start successfully
-[2022-10-04T00:57:20.336] [INFO] NUCLIUS_DATA - setting mySql environment
-[2022-10-04T00:57:20.336] [INFO] NUCLIUS_DATA - checking version match with nodeJs
-[2022-10-04T00:57:20.336] [INFO] NUCLIUS_DATA - matched the versions
-[2022-10-04T00:57:20.337] [INFO] NUCLIUS_DATA - checking environmental variables
-[2022-10-04T00:57:20.337] [INFO] NUCLIUS_DATA - checking pool conection
-[2022-10-04T00:57:20.337] [INFO] NUCLIUS_DATA - geted primary pool | connection thred successfully iniated
-[2022-10-04T00:57:20.337] [INFO] NUCLIUS_DATA - connection time 133 MS
-[2022-10-04T00:57:20.337] [INFO] NUCLIUS_DATA - SQL:SELECT TEST 1
-[2022-10-04T00:57:20.337] [INFO] NUCLIUS_DATA - closing pool | getted maximum connection
-[2022-10-04T00:57:20.337] [INFO] NUCLIUS_DATA - database connection estblished sucessfully
-[2022-10-04T00:57:28.718] [INFO] NUCLIUS_DATA - Request reached from host ::1 and request packet :
-[2022-10-04T00:57:28.718] [INFO] NUCLIUS_DATA - {
+[2022-10-05T16:01:19.486] [INFO] NUCLIUS_DATA - printing port | port : 5080
+[2022-10-05T16:01:19.488] [INFO] NUCLIUS_DATA - checked all dependencies and server start successfully
+[2022-10-05T16:01:19.502] [INFO] NUCLIUS_DATA - setting mySql environment
+[2022-10-05T16:01:19.503] [INFO] NUCLIUS_DATA - checking version match with nodeJs
+[2022-10-05T16:01:19.503] [INFO] NUCLIUS_DATA - matched the versions
+[2022-10-05T16:01:19.503] [INFO] NUCLIUS_DATA - checking environmental variables
+[2022-10-05T16:01:19.503] [INFO] NUCLIUS_DATA - checking pool conection
+[2022-10-05T16:01:19.503] [INFO] NUCLIUS_DATA - geted primary pool | connection thred successfully iniated
+[2022-10-05T16:01:19.503] [INFO] NUCLIUS_DATA - connection time 133 MS
+[2022-10-05T16:01:19.504] [INFO] NUCLIUS_DATA - SQL:SELECT TEST 1
+[2022-10-05T16:01:19.504] [INFO] NUCLIUS_DATA - closing pool | getted maximum connection
+[2022-10-05T16:01:19.504] [INFO] NUCLIUS_DATA - database connection estblished sucessfully
+[2022-10-05T16:01:25.405] [INFO] NUCLIUS_DATA - Request reached from host ::1 and request packet :
+[2022-10-05T16:01:25.405] [INFO] NUCLIUS_DATA - {
   hardware_id: 'DCSUB001',
-  data: { current: '987', voltage: '9.9', power: '798455' }
+  data: { current: '90', voltage: 'ii', power: '10' }
 }
-[2022-10-04T00:57:28.719] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
-[2022-10-04T00:57:28.719] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : DCSUB001
-[2022-10-04T00:57:28.719] [INFO] NUCLIUS_DATA - inserting current  = 987 | voltage = 9.9 | power = 798455
-[2022-10-04T00:57:28.737] [INFO] NUCLIUS_DATA - connected id 394
-[2022-10-04T00:57:28.738] [INFO] NUCLIUS_DATA - sql query :INSERT INTO DCSUB001 SET seq_id=?
-[2022-10-04T01:02:33.298] [INFO] NUCLIUS_DATA - checking node node environment
-[2022-10-04T01:02:33.302] [INFO] NUCLIUS_DATA - Found that node version is v16.14.2 and is adapt to the running
-[2022-10-04T01:02:33.302] [INFO] NUCLIUS_DATA - checking node modules on system | system get moduels values as ?
-[2022-10-04T01:02:33.302] [INFO] NUCLIUS_DATA - {
+[2022-10-05T16:01:25.406] [ERROR] NUCLIUS_DATA - primary validation is failed
+[2022-10-05T16:01:51.757] [INFO] NUCLIUS_DATA - Request reached from host ::1 and request packet :
+[2022-10-05T16:01:51.757] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'DCSUB001',
+  data: { current: '90', voltage: '09', power: 'jj' }
+}
+[2022-10-05T16:01:51.757] [ERROR] NUCLIUS_DATA - primary validation is failed
+[2022-10-05T16:02:00.198] [INFO] NUCLIUS_DATA - checking node node environment
+[2022-10-05T16:02:00.204] [INFO] NUCLIUS_DATA - Found that node version is v16.14.2 and is adapt to the running
+[2022-10-05T16:02:00.205] [INFO] NUCLIUS_DATA - checking node modules on system | system get moduels values as ?
+[2022-10-05T16:02:00.205] [INFO] NUCLIUS_DATA - {
   name: 'node',
   version: '1.0.0',
   description: 'R&D',
@@ -664,42 +552,28 @@
   },
   devDependencies: { nodemon: '^2.0.20' }
 }
-[2022-10-04T01:02:33.313] [INFO] NUCLIUS_DATA - printing port | port : 5080
-[2022-10-04T01:02:33.315] [INFO] NUCLIUS_DATA - checked all dependencies and server start successfully
-[2022-10-04T01:02:33.338] [INFO] NUCLIUS_DATA - setting mySql environment
-[2022-10-04T01:02:33.339] [INFO] NUCLIUS_DATA - checking version match with nodeJs
-[2022-10-04T01:02:33.339] [INFO] NUCLIUS_DATA - matched the versions
-[2022-10-04T01:02:33.339] [INFO] NUCLIUS_DATA - checking environmental variables
-[2022-10-04T01:02:33.339] [INFO] NUCLIUS_DATA - checking pool conection
-[2022-10-04T01:02:33.339] [INFO] NUCLIUS_DATA - geted primary pool | connection thred successfully iniated
-[2022-10-04T01:02:33.340] [INFO] NUCLIUS_DATA - connection time 133 MS
-[2022-10-04T01:02:33.340] [INFO] NUCLIUS_DATA - SQL:SELECT TEST 1
-[2022-10-04T01:02:33.340] [INFO] NUCLIUS_DATA - closing pool | getted maximum connection
-[2022-10-04T01:02:33.340] [INFO] NUCLIUS_DATA - database connection estblished sucessfully
-[2022-10-04T01:02:40.311] [INFO] NUCLIUS_DATA - Request reached from host ::1 and request packet :
-[2022-10-04T01:02:40.311] [INFO] NUCLIUS_DATA - {
+[2022-10-05T16:02:00.210] [INFO] NUCLIUS_DATA - printing port | port : 5080
+[2022-10-05T16:02:00.214] [INFO] NUCLIUS_DATA - checked all dependencies and server start successfully
+[2022-10-05T16:02:00.244] [INFO] NUCLIUS_DATA - setting mySql environment
+[2022-10-05T16:02:00.244] [INFO] NUCLIUS_DATA - checking version match with nodeJs
+[2022-10-05T16:02:00.245] [INFO] NUCLIUS_DATA - matched the versions
+[2022-10-05T16:02:00.245] [INFO] NUCLIUS_DATA - checking environmental variables
+[2022-10-05T16:02:00.245] [INFO] NUCLIUS_DATA - checking pool conection
+[2022-10-05T16:02:00.245] [INFO] NUCLIUS_DATA - geted primary pool | connection thred successfully iniated
+[2022-10-05T16:02:00.245] [INFO] NUCLIUS_DATA - connection time 133 MS
+[2022-10-05T16:02:00.245] [INFO] NUCLIUS_DATA - SQL:SELECT TEST 1
+[2022-10-05T16:02:00.245] [INFO] NUCLIUS_DATA - closing pool | getted maximum connection
+[2022-10-05T16:02:00.245] [INFO] NUCLIUS_DATA - database connection estblished sucessfully
+[2022-10-05T16:02:01.627] [INFO] NUCLIUS_DATA - Request reached from host ::1 and request packet :
+[2022-10-05T16:02:01.627] [INFO] NUCLIUS_DATA - {
   hardware_id: 'DCSUB001',
-  data: { current: '987', voltage: '9.9', power: '798455' }
+  data: { current: '90', voltage: '09', power: 'jj' }
 }
-[2022-10-04T01:02:40.312] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
-[2022-10-04T01:02:40.312] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : DCSUB001
-[2022-10-04T01:02:40.312] [INFO] NUCLIUS_DATA - inserting current  = 987 | voltage = 9.9 | power = 798455
-[2022-10-04T01:02:40.325] [INFO] NUCLIUS_DATA - connected id 484
-[2022-10-04T01:02:40.325] [INFO] NUCLIUS_DATA - sql query :INSERT INTO DCSUB001 SET seq_id=?
-[2022-10-04T01:02:54.816] [INFO] NUCLIUS_DATA - Request reached from host ::1 and request packet :
-[2022-10-04T01:02:54.816] [INFO] NUCLIUS_DATA - {
-  hardware_id: 'DCSUB001',
-  data: { current: '987', voltage: '9987', power: '798455' }
-}
-[2022-10-04T01:02:54.816] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
-[2022-10-04T01:02:54.816] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : DCSUB001
-[2022-10-04T01:02:54.816] [INFO] NUCLIUS_DATA - inserting current  = 987 | voltage = 9987 | power = 798455
-[2022-10-04T01:02:54.820] [INFO] NUCLIUS_DATA - connected id 484
-[2022-10-04T01:02:54.820] [INFO] NUCLIUS_DATA - sql query :INSERT INTO DCSUB001 SET seq_id=?
-[2022-10-04T01:05:44.728] [INFO] NUCLIUS_DATA - checking node node environment
-[2022-10-04T01:05:44.731] [INFO] NUCLIUS_DATA - Found that node version is v16.14.2 and is adapt to the running
-[2022-10-04T01:05:44.731] [INFO] NUCLIUS_DATA - checking node modules on system | system get moduels values as ?
-[2022-10-04T01:05:44.731] [INFO] NUCLIUS_DATA - {
+[2022-10-05T16:02:01.628] [ERROR] NUCLIUS_DATA - primary validation is failed
+[2022-10-05T16:02:41.497] [INFO] NUCLIUS_DATA - checking node node environment
+[2022-10-05T16:02:41.500] [INFO] NUCLIUS_DATA - Found that node version is v16.14.2 and is adapt to the running
+[2022-10-05T16:02:41.500] [INFO] NUCLIUS_DATA - checking node modules on system | system get moduels values as ?
+[2022-10-05T16:02:41.500] [INFO] NUCLIUS_DATA - {
   name: 'node',
   version: '1.0.0',
   description: 'R&D',
@@ -726,22 +600,22 @@
   },
   devDependencies: { nodemon: '^2.0.20' }
 }
-[2022-10-04T01:05:44.734] [INFO] NUCLIUS_DATA - printing port | port : 5080
-[2022-10-04T01:05:44.735] [INFO] NUCLIUS_DATA - checked all dependencies and server start successfully
-[2022-10-04T01:05:44.748] [INFO] NUCLIUS_DATA - setting mySql environment
-[2022-10-04T01:05:44.749] [INFO] NUCLIUS_DATA - checking version match with nodeJs
-[2022-10-04T01:05:44.749] [INFO] NUCLIUS_DATA - matched the versions
-[2022-10-04T01:05:44.749] [INFO] NUCLIUS_DATA - checking environmental variables
-[2022-10-04T01:05:44.749] [INFO] NUCLIUS_DATA - checking pool conection
-[2022-10-04T01:05:44.749] [INFO] NUCLIUS_DATA - geted primary pool | connection thred successfully iniated
-[2022-10-04T01:05:44.749] [INFO] NUCLIUS_DATA - connection time 133 MS
-[2022-10-04T01:05:44.750] [INFO] NUCLIUS_DATA - SQL:SELECT TEST 1
-[2022-10-04T01:05:44.750] [INFO] NUCLIUS_DATA - closing pool | getted maximum connection
-[2022-10-04T01:05:44.750] [INFO] NUCLIUS_DATA - database connection estblished sucessfully
-[2022-10-04T01:06:53.212] [INFO] NUCLIUS_DATA - checking node node environment
-[2022-10-04T01:06:53.214] [INFO] NUCLIUS_DATA - Found that node version is v16.14.2 and is adapt to the running
-[2022-10-04T01:06:53.214] [INFO] NUCLIUS_DATA - checking node modules on system | system get moduels values as ?
-[2022-10-04T01:06:53.214] [INFO] NUCLIUS_DATA - {
+[2022-10-05T16:02:41.502] [INFO] NUCLIUS_DATA - printing port | port : 5080
+[2022-10-05T16:02:41.504] [INFO] NUCLIUS_DATA - checked all dependencies and server start successfully
+[2022-10-05T16:02:41.518] [INFO] NUCLIUS_DATA - setting mySql environment
+[2022-10-05T16:02:41.519] [INFO] NUCLIUS_DATA - checking version match with nodeJs
+[2022-10-05T16:02:41.519] [INFO] NUCLIUS_DATA - matched the versions
+[2022-10-05T16:02:41.519] [INFO] NUCLIUS_DATA - checking environmental variables
+[2022-10-05T16:02:41.519] [INFO] NUCLIUS_DATA - checking pool conection
+[2022-10-05T16:02:41.519] [INFO] NUCLIUS_DATA - geted primary pool | connection thred successfully iniated
+[2022-10-05T16:02:41.519] [INFO] NUCLIUS_DATA - connection time 133 MS
+[2022-10-05T16:02:41.519] [INFO] NUCLIUS_DATA - SQL:SELECT TEST 1
+[2022-10-05T16:02:41.519] [INFO] NUCLIUS_DATA - closing pool | getted maximum connection
+[2022-10-05T16:02:41.519] [INFO] NUCLIUS_DATA - database connection estblished sucessfully
+[2022-10-05T16:02:57.783] [INFO] NUCLIUS_DATA - checking node node environment
+[2022-10-05T16:02:57.785] [INFO] NUCLIUS_DATA - Found that node version is v16.14.2 and is adapt to the running
+[2022-10-05T16:02:57.785] [INFO] NUCLIUS_DATA - checking node modules on system | system get moduels values as ?
+[2022-10-05T16:02:57.785] [INFO] NUCLIUS_DATA - {
   name: 'node',
   version: '1.0.0',
   description: 'R&D',
@@ -768,79 +642,118 @@
   },
   devDependencies: { nodemon: '^2.0.20' }
 }
-[2022-10-04T01:06:53.217] [INFO] NUCLIUS_DATA - printing port | port : 5080
-[2022-10-04T01:06:53.218] [INFO] NUCLIUS_DATA - checked all dependencies and server start successfully
-[2022-10-04T01:06:53.229] [INFO] NUCLIUS_DATA - setting mySql environment
-[2022-10-04T01:06:53.230] [INFO] NUCLIUS_DATA - checking version match with nodeJs
-[2022-10-04T01:06:53.230] [INFO] NUCLIUS_DATA - matched the versions
-[2022-10-04T01:06:53.230] [INFO] NUCLIUS_DATA - checking environmental variables
-[2022-10-04T01:06:53.230] [INFO] NUCLIUS_DATA - checking pool conection
-[2022-10-04T01:06:53.230] [INFO] NUCLIUS_DATA - geted primary pool | connection thred successfully iniated
-[2022-10-04T01:06:53.230] [INFO] NUCLIUS_DATA - connection time 133 MS
-[2022-10-04T01:06:53.230] [INFO] NUCLIUS_DATA - SQL:SELECT TEST 1
-[2022-10-04T01:06:53.230] [INFO] NUCLIUS_DATA - closing pool | getted maximum connection
-[2022-10-04T01:06:53.230] [INFO] NUCLIUS_DATA - database connection estblished sucessfully
-[2022-10-04T01:07:30.285] [INFO] NUCLIUS_DATA - Request reached from host ::1 and request packet :
-[2022-10-04T01:07:30.285] [INFO] NUCLIUS_DATA - {
+[2022-10-05T16:02:57.789] [INFO] NUCLIUS_DATA - printing port | port : 5080
+[2022-10-05T16:02:57.791] [INFO] NUCLIUS_DATA - checked all dependencies and server start successfully
+[2022-10-05T16:02:57.805] [INFO] NUCLIUS_DATA - setting mySql environment
+[2022-10-05T16:02:57.805] [INFO] NUCLIUS_DATA - checking version match with nodeJs
+[2022-10-05T16:02:57.806] [INFO] NUCLIUS_DATA - matched the versions
+[2022-10-05T16:02:57.806] [INFO] NUCLIUS_DATA - checking environmental variables
+[2022-10-05T16:02:57.806] [INFO] NUCLIUS_DATA - checking pool conection
+[2022-10-05T16:02:57.806] [INFO] NUCLIUS_DATA - geted primary pool | connection thred successfully iniated
+[2022-10-05T16:02:57.806] [INFO] NUCLIUS_DATA - connection time 133 MS
+[2022-10-05T16:02:57.806] [INFO] NUCLIUS_DATA - SQL:SELECT TEST 1
+[2022-10-05T16:02:57.806] [INFO] NUCLIUS_DATA - closing pool | getted maximum connection
+[2022-10-05T16:02:57.806] [INFO] NUCLIUS_DATA - database connection estblished sucessfully
+[2022-10-05T16:03:06.605] [INFO] NUCLIUS_DATA - checking node node environment
+[2022-10-05T16:03:06.607] [INFO] NUCLIUS_DATA - Found that node version is v16.14.2 and is adapt to the running
+[2022-10-05T16:03:06.607] [INFO] NUCLIUS_DATA - checking node modules on system | system get moduels values as ?
+[2022-10-05T16:03:06.607] [INFO] NUCLIUS_DATA - {
+  name: 'node',
+  version: '1.0.0',
+  description: 'R&D',
+  main: 'app.js',
+  scripts: { start: 'nodemon app.js' },
+  repository: {
+    type: 'git',
+    url: 'git+https://github.com/abhiipillai2/NUCLIUS-DATA-COLLECTION-BACK-END.git'
+  },
+  author: 'ATOM DEVELOPERS',
+  license: 'ISC',
+  bugs: {
+    url: 'https://github.com/abhiipillai2/NUCLIUS-DATA-COLLECTION-BACK-END/issues'
+  },
+  homepage: 'https://github.com/abhiipillai2/NUCLIUS-DATA-COLLECTION-BACK-END#readme',
+  dependencies: {
+    'body-parser': '^1.20.0',
+    cors: '^2.8.5',
+    dotenv: '^16.0.2',
+    express: '^4.18.1',
+    log4js: '^6.6.1',
+    momment: '^0.0.1',
+    mysql: '^2.18.1'
+  },
+  devDependencies: { nodemon: '^2.0.20' }
+}
+[2022-10-05T16:03:06.610] [INFO] NUCLIUS_DATA - printing port | port : 5080
+[2022-10-05T16:03:06.611] [INFO] NUCLIUS_DATA - checked all dependencies and server start successfully
+[2022-10-05T16:03:06.626] [INFO] NUCLIUS_DATA - setting mySql environment
+[2022-10-05T16:03:06.626] [INFO] NUCLIUS_DATA - checking version match with nodeJs
+[2022-10-05T16:03:06.626] [INFO] NUCLIUS_DATA - matched the versions
+[2022-10-05T16:03:06.627] [INFO] NUCLIUS_DATA - checking environmental variables
+[2022-10-05T16:03:06.627] [INFO] NUCLIUS_DATA - checking pool conection
+[2022-10-05T16:03:06.627] [INFO] NUCLIUS_DATA - geted primary pool | connection thred successfully iniated
+[2022-10-05T16:03:06.627] [INFO] NUCLIUS_DATA - connection time 133 MS
+[2022-10-05T16:03:06.627] [INFO] NUCLIUS_DATA - SQL:SELECT TEST 1
+[2022-10-05T16:03:06.627] [INFO] NUCLIUS_DATA - closing pool | getted maximum connection
+[2022-10-05T16:03:06.627] [INFO] NUCLIUS_DATA - database connection estblished sucessfully
+[2022-10-05T16:03:14.014] [INFO] NUCLIUS_DATA - checking node node environment
+[2022-10-05T16:03:14.017] [INFO] NUCLIUS_DATA - Found that node version is v16.14.2 and is adapt to the running
+[2022-10-05T16:03:14.017] [INFO] NUCLIUS_DATA - checking node modules on system | system get moduels values as ?
+[2022-10-05T16:03:14.017] [INFO] NUCLIUS_DATA - {
+  name: 'node',
+  version: '1.0.0',
+  description: 'R&D',
+  main: 'app.js',
+  scripts: { start: 'nodemon app.js' },
+  repository: {
+    type: 'git',
+    url: 'git+https://github.com/abhiipillai2/NUCLIUS-DATA-COLLECTION-BACK-END.git'
+  },
+  author: 'ATOM DEVELOPERS',
+  license: 'ISC',
+  bugs: {
+    url: 'https://github.com/abhiipillai2/NUCLIUS-DATA-COLLECTION-BACK-END/issues'
+  },
+  homepage: 'https://github.com/abhiipillai2/NUCLIUS-DATA-COLLECTION-BACK-END#readme',
+  dependencies: {
+    'body-parser': '^1.20.0',
+    cors: '^2.8.5',
+    dotenv: '^16.0.2',
+    express: '^4.18.1',
+    log4js: '^6.6.1',
+    momment: '^0.0.1',
+    mysql: '^2.18.1'
+  },
+  devDependencies: { nodemon: '^2.0.20' }
+}
+[2022-10-05T16:03:14.020] [INFO] NUCLIUS_DATA - printing port | port : 5080
+[2022-10-05T16:03:14.023] [INFO] NUCLIUS_DATA - checked all dependencies and server start successfully
+[2022-10-05T16:03:14.044] [INFO] NUCLIUS_DATA - setting mySql environment
+[2022-10-05T16:03:14.045] [INFO] NUCLIUS_DATA - checking version match with nodeJs
+[2022-10-05T16:03:14.046] [INFO] NUCLIUS_DATA - matched the versions
+[2022-10-05T16:03:14.046] [INFO] NUCLIUS_DATA - checking environmental variables
+[2022-10-05T16:03:14.046] [INFO] NUCLIUS_DATA - checking pool conection
+[2022-10-05T16:03:14.046] [INFO] NUCLIUS_DATA - geted primary pool | connection thred successfully iniated
+[2022-10-05T16:03:14.046] [INFO] NUCLIUS_DATA - connection time 133 MS
+[2022-10-05T16:03:14.047] [INFO] NUCLIUS_DATA - SQL:SELECT TEST 1
+[2022-10-05T16:03:14.047] [INFO] NUCLIUS_DATA - closing pool | getted maximum connection
+[2022-10-05T16:03:14.047] [INFO] NUCLIUS_DATA - database connection estblished sucessfully
+[2022-10-05T16:03:15.680] [INFO] NUCLIUS_DATA - Request reached from host ::1 and request packet :
+[2022-10-05T16:03:15.680] [INFO] NUCLIUS_DATA - {
   hardware_id: 'DCSUB001',
-  data: { current: '8', voltage: '9', power: '10' }
+  data: { current: '90', voltage: '09', power: 'jj' }
 }
-[2022-10-04T01:09:20.571] [INFO] NUCLIUS_DATA - checking node node environment
-[2022-10-04T01:09:20.573] [INFO] NUCLIUS_DATA - Found that node version is v16.14.2 and is adapt to the running
-[2022-10-04T01:09:20.573] [INFO] NUCLIUS_DATA - checking node modules on system | system get moduels values as ?
-[2022-10-04T01:09:20.573] [INFO] NUCLIUS_DATA - {
-  name: 'node',
-  version: '1.0.0',
-  description: 'R&D',
-  main: 'app.js',
-  scripts: { start: 'nodemon app.js' },
-  repository: {
-    type: 'git',
-    url: 'git+https://github.com/abhiipillai2/NUCLIUS-DATA-COLLECTION-BACK-END.git'
-  },
-  author: 'ATOM DEVELOPERS',
-  license: 'ISC',
-  bugs: {
-    url: 'https://github.com/abhiipillai2/NUCLIUS-DATA-COLLECTION-BACK-END/issues'
-  },
-  homepage: 'https://github.com/abhiipillai2/NUCLIUS-DATA-COLLECTION-BACK-END#readme',
-  dependencies: {
-    'body-parser': '^1.20.0',
-    cors: '^2.8.5',
-    dotenv: '^16.0.2',
-    express: '^4.18.1',
-    log4js: '^6.6.1',
-    momment: '^0.0.1',
-    mysql: '^2.18.1'
-  },
-  devDependencies: { nodemon: '^2.0.20' }
-}
-[2022-10-04T01:09:20.577] [INFO] NUCLIUS_DATA - printing port | port : 5080
-[2022-10-04T01:09:20.579] [INFO] NUCLIUS_DATA - checked all dependencies and server start successfully
-[2022-10-04T01:09:20.594] [INFO] NUCLIUS_DATA - setting mySql environment
-[2022-10-04T01:09:20.595] [INFO] NUCLIUS_DATA - checking version match with nodeJs
-[2022-10-04T01:09:20.595] [INFO] NUCLIUS_DATA - matched the versions
-[2022-10-04T01:09:20.595] [INFO] NUCLIUS_DATA - checking environmental variables
-[2022-10-04T01:09:20.595] [INFO] NUCLIUS_DATA - checking pool conection
-[2022-10-04T01:09:20.595] [INFO] NUCLIUS_DATA - geted primary pool | connection thred successfully iniated
-[2022-10-04T01:09:20.595] [INFO] NUCLIUS_DATA - connection time 133 MS
-[2022-10-04T01:09:20.596] [INFO] NUCLIUS_DATA - SQL:SELECT TEST 1
-[2022-10-04T01:09:20.596] [INFO] NUCLIUS_DATA - closing pool | getted maximum connection
-[2022-10-04T01:09:20.596] [INFO] NUCLIUS_DATA - database connection estblished sucessfully
-[2022-10-04T01:09:24.732] [INFO] NUCLIUS_DATA - Request reached from host ::1 and request packet :
-[2022-10-04T01:09:24.732] [INFO] NUCLIUS_DATA - {
+[2022-10-05T16:03:15.682] [ERROR] NUCLIUS_DATA - primary validation is failed
+[2022-10-05T16:03:23.958] [INFO] NUCLIUS_DATA - Request reached from host ::1 and request packet :
+[2022-10-05T16:03:23.958] [INFO] NUCLIUS_DATA - {
   hardware_id: 'DCSUB001',
-  data: { current: '8', voltage: '9', power: '10' }
+  data: { current: '90', voltage: '09', power: '90' }
 }
-[2022-10-04T01:09:24.733] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
-[2022-10-04T01:09:24.733] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : DCSUB001
-[2022-10-04T01:09:24.733] [INFO] NUCLIUS_DATA - inserting current  = 8 | voltage = 9 | power = 10
-[2022-10-04T01:09:24.745] [INFO] NUCLIUS_DATA - connected id 527
-[2022-10-04T01:09:24.745] [INFO] NUCLIUS_DATA - sql query :INSERT INTO DCSUB001 SET seq_id=?
-[2022-10-04T01:10:25.889] [INFO] NUCLIUS_DATA - checking node node environment
-[2022-10-04T01:10:25.891] [INFO] NUCLIUS_DATA - Found that node version is v16.14.2 and is adapt to the running
-[2022-10-04T01:10:25.891] [INFO] NUCLIUS_DATA - checking node modules on system | system get moduels values as ?
-[2022-10-04T01:10:25.891] [INFO] NUCLIUS_DATA - {
+[2022-10-05T16:03:23.958] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-05T16:03:30.605] [INFO] NUCLIUS_DATA - checking node node environment
+[2022-10-05T16:03:30.607] [INFO] NUCLIUS_DATA - Found that node version is v16.14.2 and is adapt to the running
+[2022-10-05T16:03:30.607] [INFO] NUCLIUS_DATA - checking node modules on system | system get moduels values as ?
+[2022-10-05T16:03:30.607] [INFO] NUCLIUS_DATA - {
   name: 'node',
   version: '1.0.0',
   description: 'R&D',
@@ -867,32 +780,74 @@
   },
   devDependencies: { nodemon: '^2.0.20' }
 }
-[2022-10-04T01:10:25.894] [INFO] NUCLIUS_DATA - printing port | port : 5080
-[2022-10-04T01:10:25.896] [INFO] NUCLIUS_DATA - checked all dependencies and server start successfully
-[2022-10-04T01:10:25.909] [INFO] NUCLIUS_DATA - setting mySql environment
-[2022-10-04T01:10:25.910] [INFO] NUCLIUS_DATA - checking version match with nodeJs
-[2022-10-04T01:10:25.910] [INFO] NUCLIUS_DATA - matched the versions
-[2022-10-04T01:10:25.910] [INFO] NUCLIUS_DATA - checking environmental variables
-[2022-10-04T01:10:25.910] [INFO] NUCLIUS_DATA - checking pool conection
-[2022-10-04T01:10:25.910] [INFO] NUCLIUS_DATA - geted primary pool | connection thred successfully iniated
-[2022-10-04T01:10:25.910] [INFO] NUCLIUS_DATA - connection time 133 MS
-[2022-10-04T01:10:25.910] [INFO] NUCLIUS_DATA - SQL:SELECT TEST 1
-[2022-10-04T01:10:25.910] [INFO] NUCLIUS_DATA - closing pool | getted maximum connection
-[2022-10-04T01:10:25.910] [INFO] NUCLIUS_DATA - database connection estblished sucessfully
-[2022-10-04T01:12:39.533] [INFO] NUCLIUS_DATA - Request reached from host ::1 and request packet :
-[2022-10-04T01:12:39.534] [INFO] NUCLIUS_DATA - {
+[2022-10-05T16:03:30.610] [INFO] NUCLIUS_DATA - printing port | port : 5080
+[2022-10-05T16:03:30.611] [INFO] NUCLIUS_DATA - checked all dependencies and server start successfully
+[2022-10-05T16:03:30.622] [INFO] NUCLIUS_DATA - setting mySql environment
+[2022-10-05T16:03:30.622] [INFO] NUCLIUS_DATA - checking version match with nodeJs
+[2022-10-05T16:03:30.622] [INFO] NUCLIUS_DATA - matched the versions
+[2022-10-05T16:03:30.622] [INFO] NUCLIUS_DATA - checking environmental variables
+[2022-10-05T16:03:30.623] [INFO] NUCLIUS_DATA - checking pool conection
+[2022-10-05T16:03:30.623] [INFO] NUCLIUS_DATA - geted primary pool | connection thred successfully iniated
+[2022-10-05T16:03:30.623] [INFO] NUCLIUS_DATA - connection time 133 MS
+[2022-10-05T16:03:30.623] [INFO] NUCLIUS_DATA - SQL:SELECT TEST 1
+[2022-10-05T16:03:30.623] [INFO] NUCLIUS_DATA - closing pool | getted maximum connection
+[2022-10-05T16:03:30.623] [INFO] NUCLIUS_DATA - database connection estblished sucessfully
+[2022-10-05T16:04:25.708] [INFO] NUCLIUS_DATA - checking node node environment
+[2022-10-05T16:04:25.713] [INFO] NUCLIUS_DATA - Found that node version is v16.14.2 and is adapt to the running
+[2022-10-05T16:04:25.713] [INFO] NUCLIUS_DATA - checking node modules on system | system get moduels values as ?
+[2022-10-05T16:04:25.713] [INFO] NUCLIUS_DATA - {
+  name: 'node',
+  version: '1.0.0',
+  description: 'R&D',
+  main: 'app.js',
+  scripts: { start: 'nodemon app.js' },
+  repository: {
+    type: 'git',
+    url: 'git+https://github.com/abhiipillai2/NUCLIUS-DATA-COLLECTION-BACK-END.git'
+  },
+  author: 'ATOM DEVELOPERS',
+  license: 'ISC',
+  bugs: {
+    url: 'https://github.com/abhiipillai2/NUCLIUS-DATA-COLLECTION-BACK-END/issues'
+  },
+  homepage: 'https://github.com/abhiipillai2/NUCLIUS-DATA-COLLECTION-BACK-END#readme',
+  dependencies: {
+    'body-parser': '^1.20.0',
+    cors: '^2.8.5',
+    dotenv: '^16.0.2',
+    express: '^4.18.1',
+    log4js: '^6.6.1',
+    momment: '^0.0.1',
+    mysql: '^2.18.1'
+  },
+  devDependencies: { nodemon: '^2.0.20' }
+}
+[2022-10-05T16:04:25.718] [INFO] NUCLIUS_DATA - printing port | port : 5080
+[2022-10-05T16:04:25.721] [INFO] NUCLIUS_DATA - checked all dependencies and server start successfully
+[2022-10-05T16:04:25.752] [INFO] NUCLIUS_DATA - setting mySql environment
+[2022-10-05T16:04:25.752] [INFO] NUCLIUS_DATA - checking version match with nodeJs
+[2022-10-05T16:04:25.752] [INFO] NUCLIUS_DATA - matched the versions
+[2022-10-05T16:04:25.753] [INFO] NUCLIUS_DATA - checking environmental variables
+[2022-10-05T16:04:25.753] [INFO] NUCLIUS_DATA - checking pool conection
+[2022-10-05T16:04:25.753] [INFO] NUCLIUS_DATA - geted primary pool | connection thred successfully iniated
+[2022-10-05T16:04:25.753] [INFO] NUCLIUS_DATA - connection time 133 MS
+[2022-10-05T16:04:25.753] [INFO] NUCLIUS_DATA - SQL:SELECT TEST 1
+[2022-10-05T16:04:25.753] [INFO] NUCLIUS_DATA - closing pool | getted maximum connection
+[2022-10-05T16:04:25.753] [INFO] NUCLIUS_DATA - database connection estblished sucessfully
+[2022-10-05T16:04:29.321] [INFO] NUCLIUS_DATA - Request reached from host ::1 and request packet :
+[2022-10-05T16:04:29.321] [INFO] NUCLIUS_DATA - {
   hardware_id: 'DCSUB001',
-  data: { current: '8', voltage: '9', power: '10' }
+  data: { current: '90', voltage: '09', power: '90' }
 }
-[2022-10-04T01:12:39.536] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
-[2022-10-04T01:12:39.536] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : DCSUB001
-[2022-10-04T01:12:39.536] [INFO] NUCLIUS_DATA - inserting current  = 8 | voltage = 9 | power = 10
-[2022-10-04T01:12:39.581] [INFO] NUCLIUS_DATA - connected id 541
-[2022-10-04T01:12:39.581] [INFO] NUCLIUS_DATA - sql query :INSERT INTO DCSUB001 SET seq_id=?
-[2022-10-04T03:47:40.990] [INFO] NUCLIUS_DATA - checking node node environment
-[2022-10-04T03:47:40.992] [INFO] NUCLIUS_DATA - Found that node version is v16.14.2 and is adapt to the running
-[2022-10-04T03:47:40.992] [INFO] NUCLIUS_DATA - checking node modules on system | system get moduels values as ?
-[2022-10-04T03:47:40.993] [INFO] NUCLIUS_DATA - {
+[2022-10-05T16:04:29.322] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-05T16:04:29.322] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : DCSUB001
+[2022-10-05T16:04:29.322] [INFO] NUCLIUS_DATA - inserting current  = 90 | voltage = 09 | power = 90
+[2022-10-05T16:04:29.329] [INFO] NUCLIUS_DATA - connected id 116
+[2022-10-05T16:04:29.329] [INFO] NUCLIUS_DATA - sql query :INSERT INTO DCSUB001 SET seq_id=?
+[2022-10-05T16:05:57.523] [INFO] NUCLIUS_DATA - checking node node environment
+[2022-10-05T16:05:57.525] [INFO] NUCLIUS_DATA - Found that node version is v16.14.2 and is adapt to the running
+[2022-10-05T16:05:57.526] [INFO] NUCLIUS_DATA - checking node modules on system | system get moduels values as ?
+[2022-10-05T16:05:57.526] [INFO] NUCLIUS_DATA - {
   name: 'node',
   version: '1.0.0',
   description: 'R&D',
@@ -919,26 +874,553 @@
   },
   devDependencies: { nodemon: '^2.0.20' }
 }
-[2022-10-04T03:47:40.995] [INFO] NUCLIUS_DATA - printing port | port : 5080
-[2022-10-04T03:47:40.997] [INFO] NUCLIUS_DATA - checked all dependencies and server start successfully
-[2022-10-04T03:47:41.009] [DEBUG] NUCLIUS_DATA - databas is not connected
-[2022-10-04T03:47:41.010] [ERROR] NUCLIUS_DATA - Error: connect ECONNREFUSED 127.0.0.1:3306
-    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)
+[2022-10-05T16:05:57.529] [INFO] NUCLIUS_DATA - printing port | port : 5080
+[2022-10-05T16:05:57.530] [INFO] NUCLIUS_DATA - checked all dependencies and server start successfully
+[2022-10-05T16:05:57.541] [INFO] NUCLIUS_DATA - setting mySql environment
+[2022-10-05T16:05:57.541] [INFO] NUCLIUS_DATA - checking version match with nodeJs
+[2022-10-05T16:05:57.541] [INFO] NUCLIUS_DATA - matched the versions
+[2022-10-05T16:05:57.542] [INFO] NUCLIUS_DATA - checking environmental variables
+[2022-10-05T16:05:57.542] [INFO] NUCLIUS_DATA - checking pool conection
+[2022-10-05T16:05:57.542] [INFO] NUCLIUS_DATA - geted primary pool | connection thred successfully iniated
+[2022-10-05T16:05:57.542] [INFO] NUCLIUS_DATA - connection time 133 MS
+[2022-10-05T16:05:57.542] [INFO] NUCLIUS_DATA - SQL:SELECT TEST 1
+[2022-10-05T16:05:57.542] [INFO] NUCLIUS_DATA - closing pool | getted maximum connection
+[2022-10-05T16:05:57.542] [INFO] NUCLIUS_DATA - database connection estblished sucessfully
+[2022-10-05T16:06:02.528] [INFO] NUCLIUS_DATA - Request reached from host ::1 and request packet :
+[2022-10-05T16:06:02.528] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'DCSUB001',
+  data: { current: '90', voltage: '09', power: '90' }
+}
+[2022-10-05T16:06:02.529] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-05T16:06:02.529] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : DCSUB001
+[2022-10-05T16:06:02.529] [INFO] NUCLIUS_DATA - inserting current  = 90 | voltage = 09 | power = 90
+[2022-10-05T16:06:02.534] [INFO] NUCLIUS_DATA - connected id 120
+[2022-10-05T16:06:02.534] [INFO] NUCLIUS_DATA - sql query :INSERT INTO DCSUB001 SET seq_id=?
+[2022-10-05T16:06:36.305] [INFO] NUCLIUS_DATA - checking node node environment
+[2022-10-05T16:06:36.307] [INFO] NUCLIUS_DATA - Found that node version is v16.14.2 and is adapt to the running
+[2022-10-05T16:06:36.307] [INFO] NUCLIUS_DATA - checking node modules on system | system get moduels values as ?
+[2022-10-05T16:06:36.307] [INFO] NUCLIUS_DATA - {
+  name: 'node',
+  version: '1.0.0',
+  description: 'R&D',
+  main: 'app.js',
+  scripts: { start: 'nodemon app.js' },
+  repository: {
+    type: 'git',
+    url: 'git+https://github.com/abhiipillai2/NUCLIUS-DATA-COLLECTION-BACK-END.git'
+  },
+  author: 'ATOM DEVELOPERS',
+  license: 'ISC',
+  bugs: {
+    url: 'https://github.com/abhiipillai2/NUCLIUS-DATA-COLLECTION-BACK-END/issues'
+  },
+  homepage: 'https://github.com/abhiipillai2/NUCLIUS-DATA-COLLECTION-BACK-END#readme',
+  dependencies: {
+    'body-parser': '^1.20.0',
+    cors: '^2.8.5',
+    dotenv: '^16.0.2',
+    express: '^4.18.1',
+    log4js: '^6.6.1',
+    momment: '^0.0.1',
+    mysql: '^2.18.1'
+  },
+  devDependencies: { nodemon: '^2.0.20' }
+}
+[2022-10-05T16:06:36.310] [INFO] NUCLIUS_DATA - printing port | port : 5080
+[2022-10-05T16:06:36.312] [INFO] NUCLIUS_DATA - checked all dependencies and server start successfully
+[2022-10-05T16:06:36.326] [INFO] NUCLIUS_DATA - setting mySql environment
+[2022-10-05T16:06:36.326] [INFO] NUCLIUS_DATA - checking version match with nodeJs
+[2022-10-05T16:06:36.326] [INFO] NUCLIUS_DATA - matched the versions
+[2022-10-05T16:06:36.327] [INFO] NUCLIUS_DATA - checking environmental variables
+[2022-10-05T16:06:36.327] [INFO] NUCLIUS_DATA - checking pool conection
+[2022-10-05T16:06:36.327] [INFO] NUCLIUS_DATA - geted primary pool | connection thred successfully iniated
+[2022-10-05T16:06:36.327] [INFO] NUCLIUS_DATA - connection time 133 MS
+[2022-10-05T16:06:36.327] [INFO] NUCLIUS_DATA - SQL:SELECT TEST 1
+[2022-10-05T16:06:36.327] [INFO] NUCLIUS_DATA - closing pool | getted maximum connection
+[2022-10-05T16:06:36.327] [INFO] NUCLIUS_DATA - database connection estblished sucessfully
+[2022-10-05T16:07:13.692] [INFO] NUCLIUS_DATA - checking node node environment
+[2022-10-05T16:07:13.694] [INFO] NUCLIUS_DATA - Found that node version is v16.14.2 and is adapt to the running
+[2022-10-05T16:07:13.694] [INFO] NUCLIUS_DATA - checking node modules on system | system get moduels values as ?
+[2022-10-05T16:07:13.694] [INFO] NUCLIUS_DATA - {
+  name: 'node',
+  version: '1.0.0',
+  description: 'R&D',
+  main: 'app.js',
+  scripts: { start: 'nodemon app.js' },
+  repository: {
+    type: 'git',
+    url: 'git+https://github.com/abhiipillai2/NUCLIUS-DATA-COLLECTION-BACK-END.git'
+  },
+  author: 'ATOM DEVELOPERS',
+  license: 'ISC',
+  bugs: {
+    url: 'https://github.com/abhiipillai2/NUCLIUS-DATA-COLLECTION-BACK-END/issues'
+  },
+  homepage: 'https://github.com/abhiipillai2/NUCLIUS-DATA-COLLECTION-BACK-END#readme',
+  dependencies: {
+    'body-parser': '^1.20.0',
+    cors: '^2.8.5',
+    dotenv: '^16.0.2',
+    express: '^4.18.1',
+    log4js: '^6.6.1',
+    momment: '^0.0.1',
+    mysql: '^2.18.1'
+  },
+  devDependencies: { nodemon: '^2.0.20' }
+}
+[2022-10-05T16:07:13.697] [INFO] NUCLIUS_DATA - printing port | port : 5080
+[2022-10-05T16:07:13.699] [INFO] NUCLIUS_DATA - checked all dependencies and server start successfully
+[2022-10-05T16:07:13.713] [INFO] NUCLIUS_DATA - setting mySql environment
+[2022-10-05T16:07:13.713] [INFO] NUCLIUS_DATA - checking version match with nodeJs
+[2022-10-05T16:07:13.714] [INFO] NUCLIUS_DATA - matched the versions
+[2022-10-05T16:07:13.714] [INFO] NUCLIUS_DATA - checking environmental variables
+[2022-10-05T16:07:13.714] [INFO] NUCLIUS_DATA - checking pool conection
+[2022-10-05T16:07:13.714] [INFO] NUCLIUS_DATA - geted primary pool | connection thred successfully iniated
+[2022-10-05T16:07:13.714] [INFO] NUCLIUS_DATA - connection time 133 MS
+[2022-10-05T16:07:13.714] [INFO] NUCLIUS_DATA - SQL:SELECT TEST 1
+[2022-10-05T16:07:13.714] [INFO] NUCLIUS_DATA - closing pool | getted maximum connection
+[2022-10-05T16:07:13.714] [INFO] NUCLIUS_DATA - database connection estblished sucessfully
+[2022-10-05T16:11:11.217] [INFO] NUCLIUS_DATA - checking node node environment
+[2022-10-05T16:11:11.219] [INFO] NUCLIUS_DATA - Found that node version is v16.14.2 and is adapt to the running
+[2022-10-05T16:11:11.219] [INFO] NUCLIUS_DATA - checking node modules on system | system get moduels values as ?
+[2022-10-05T16:11:11.219] [INFO] NUCLIUS_DATA - {
+  name: 'node',
+  version: '1.0.0',
+  description: 'R&D',
+  main: 'app.js',
+  scripts: { start: 'nodemon app.js' },
+  repository: {
+    type: 'git',
+    url: 'git+https://github.com/abhiipillai2/NUCLIUS-DATA-COLLECTION-BACK-END.git'
+  },
+  author: 'ATOM DEVELOPERS',
+  license: 'ISC',
+  bugs: {
+    url: 'https://github.com/abhiipillai2/NUCLIUS-DATA-COLLECTION-BACK-END/issues'
+  },
+  homepage: 'https://github.com/abhiipillai2/NUCLIUS-DATA-COLLECTION-BACK-END#readme',
+  dependencies: {
+    'body-parser': '^1.20.0',
+    cors: '^2.8.5',
+    dotenv: '^16.0.2',
+    express: '^4.18.1',
+    log4js: '^6.6.1',
+    momment: '^0.0.1',
+    mysql: '^2.18.1'
+  },
+  devDependencies: { nodemon: '^2.0.20' }
+}
+[2022-10-05T16:11:11.222] [INFO] NUCLIUS_DATA - printing port | port : 5080
+[2022-10-05T16:11:11.224] [INFO] NUCLIUS_DATA - checked all dependencies and server start successfully
+[2022-10-05T16:11:11.239] [INFO] NUCLIUS_DATA - setting mySql environment
+[2022-10-05T16:11:11.240] [INFO] NUCLIUS_DATA - checking version match with nodeJs
+[2022-10-05T16:11:11.240] [INFO] NUCLIUS_DATA - matched the versions
+[2022-10-05T16:11:11.240] [INFO] NUCLIUS_DATA - checking environmental variables
+[2022-10-05T16:11:11.240] [INFO] NUCLIUS_DATA - checking pool conection
+[2022-10-05T16:11:11.240] [INFO] NUCLIUS_DATA - geted primary pool | connection thred successfully iniated
+[2022-10-05T16:11:11.240] [INFO] NUCLIUS_DATA - connection time 133 MS
+[2022-10-05T16:11:11.240] [INFO] NUCLIUS_DATA - SQL:SELECT TEST 1
+[2022-10-05T16:11:11.240] [INFO] NUCLIUS_DATA - closing pool | getted maximum connection
+[2022-10-05T16:11:11.240] [INFO] NUCLIUS_DATA - database connection estblished sucessfully
+[2022-10-05T16:11:16.567] [INFO] NUCLIUS_DATA - Request reached from host ::1 and request packet :
+[2022-10-05T16:11:16.567] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'DCSUB001',
+  data: { current: '90', voltage: '09', power: '90' }
+}
+[2022-10-05T16:11:16.568] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-05T16:11:16.568] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : DCSUB001
+[2022-10-05T16:11:16.568] [INFO] NUCLIUS_DATA - inserting current  = 90 | voltage = 09 | power = 90
+[2022-10-05T16:11:16.574] [INFO] NUCLIUS_DATA - connected id 124
+[2022-10-05T16:11:16.574] [INFO] NUCLIUS_DATA - sql query :INSERT INTO DCSUB001 SET seq_id=?
+[2022-10-05T16:11:16.604] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-05T16:11:24.009] [INFO] NUCLIUS_DATA - checking node node environment
+[2022-10-05T16:11:24.012] [INFO] NUCLIUS_DATA - Found that node version is v16.14.2 and is adapt to the running
+[2022-10-05T16:11:24.012] [INFO] NUCLIUS_DATA - checking node modules on system | system get moduels values as ?
+[2022-10-05T16:11:24.012] [INFO] NUCLIUS_DATA - {
+  name: 'node',
+  version: '1.0.0',
+  description: 'R&D',
+  main: 'app.js',
+  scripts: { start: 'nodemon app.js' },
+  repository: {
+    type: 'git',
+    url: 'git+https://github.com/abhiipillai2/NUCLIUS-DATA-COLLECTION-BACK-END.git'
+  },
+  author: 'ATOM DEVELOPERS',
+  license: 'ISC',
+  bugs: {
+    url: 'https://github.com/abhiipillai2/NUCLIUS-DATA-COLLECTION-BACK-END/issues'
+  },
+  homepage: 'https://github.com/abhiipillai2/NUCLIUS-DATA-COLLECTION-BACK-END#readme',
+  dependencies: {
+    'body-parser': '^1.20.0',
+    cors: '^2.8.5',
+    dotenv: '^16.0.2',
+    express: '^4.18.1',
+    log4js: '^6.6.1',
+    momment: '^0.0.1',
+    mysql: '^2.18.1'
+  },
+  devDependencies: { nodemon: '^2.0.20' }
+}
+[2022-10-05T16:11:24.017] [INFO] NUCLIUS_DATA - printing port | port : 5080
+[2022-10-05T16:11:24.019] [INFO] NUCLIUS_DATA - checked all dependencies and server start successfully
+[2022-10-05T16:11:24.035] [INFO] NUCLIUS_DATA - setting mySql environment
+[2022-10-05T16:11:24.036] [INFO] NUCLIUS_DATA - checking version match with nodeJs
+[2022-10-05T16:11:24.036] [INFO] NUCLIUS_DATA - matched the versions
+[2022-10-05T16:11:24.036] [INFO] NUCLIUS_DATA - checking environmental variables
+[2022-10-05T16:11:24.036] [INFO] NUCLIUS_DATA - checking pool conection
+[2022-10-05T16:11:24.036] [INFO] NUCLIUS_DATA - geted primary pool | connection thred successfully iniated
+[2022-10-05T16:11:24.036] [INFO] NUCLIUS_DATA - connection time 133 MS
+[2022-10-05T16:11:24.036] [INFO] NUCLIUS_DATA - SQL:SELECT TEST 1
+[2022-10-05T16:11:24.036] [INFO] NUCLIUS_DATA - closing pool | getted maximum connection
+[2022-10-05T16:11:24.036] [INFO] NUCLIUS_DATA - database connection estblished sucessfully
+[2022-10-05T16:11:26.771] [INFO] NUCLIUS_DATA - Request reached from host ::1 and request packet :
+[2022-10-05T16:11:26.771] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'DCSUB001',
+  data: { current: '90', voltage: '09', power: '90' }
+}
+[2022-10-05T16:11:26.771] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-05T16:12:30.194] [INFO] NUCLIUS_DATA - checking node node environment
+[2022-10-05T16:12:30.196] [INFO] NUCLIUS_DATA - Found that node version is v16.14.2 and is adapt to the running
+[2022-10-05T16:12:30.197] [INFO] NUCLIUS_DATA - checking node modules on system | system get moduels values as ?
+[2022-10-05T16:12:30.197] [INFO] NUCLIUS_DATA - {
+  name: 'node',
+  version: '1.0.0',
+  description: 'R&D',
+  main: 'app.js',
+  scripts: { start: 'nodemon app.js' },
+  repository: {
+    type: 'git',
+    url: 'git+https://github.com/abhiipillai2/NUCLIUS-DATA-COLLECTION-BACK-END.git'
+  },
+  author: 'ATOM DEVELOPERS',
+  license: 'ISC',
+  bugs: {
+    url: 'https://github.com/abhiipillai2/NUCLIUS-DATA-COLLECTION-BACK-END/issues'
+  },
+  homepage: 'https://github.com/abhiipillai2/NUCLIUS-DATA-COLLECTION-BACK-END#readme',
+  dependencies: {
+    'body-parser': '^1.20.0',
+    cors: '^2.8.5',
+    dotenv: '^16.0.2',
+    express: '^4.18.1',
+    log4js: '^6.6.1',
+    momment: '^0.0.1',
+    mysql: '^2.18.1'
+  },
+  devDependencies: { nodemon: '^2.0.20' }
+}
+[2022-10-05T16:12:30.202] [INFO] NUCLIUS_DATA - printing port | port : 5080
+[2022-10-05T16:12:30.205] [INFO] NUCLIUS_DATA - checked all dependencies and server start successfully
+[2022-10-05T16:12:30.227] [INFO] NUCLIUS_DATA - setting mySql environment
+[2022-10-05T16:12:30.228] [INFO] NUCLIUS_DATA - checking version match with nodeJs
+[2022-10-05T16:12:30.228] [INFO] NUCLIUS_DATA - matched the versions
+[2022-10-05T16:12:30.228] [INFO] NUCLIUS_DATA - checking environmental variables
+[2022-10-05T16:12:30.228] [INFO] NUCLIUS_DATA - checking pool conection
+[2022-10-05T16:12:30.228] [INFO] NUCLIUS_DATA - geted primary pool | connection thred successfully iniated
+[2022-10-05T16:12:30.228] [INFO] NUCLIUS_DATA - connection time 133 MS
+[2022-10-05T16:12:30.228] [INFO] NUCLIUS_DATA - SQL:SELECT TEST 1
+[2022-10-05T16:12:30.228] [INFO] NUCLIUS_DATA - closing pool | getted maximum connection
+[2022-10-05T16:12:30.228] [INFO] NUCLIUS_DATA - database connection estblished sucessfully
+[2022-10-05T16:13:20.265] [INFO] NUCLIUS_DATA - checking node node environment
+[2022-10-05T16:13:20.267] [INFO] NUCLIUS_DATA - Found that node version is v16.14.2 and is adapt to the running
+[2022-10-05T16:13:20.267] [INFO] NUCLIUS_DATA - checking node modules on system | system get moduels values as ?
+[2022-10-05T16:13:20.267] [INFO] NUCLIUS_DATA - {
+  name: 'node',
+  version: '1.0.0',
+  description: 'R&D',
+  main: 'app.js',
+  scripts: { start: 'nodemon app.js' },
+  repository: {
+    type: 'git',
+    url: 'git+https://github.com/abhiipillai2/NUCLIUS-DATA-COLLECTION-BACK-END.git'
+  },
+  author: 'ATOM DEVELOPERS',
+  license: 'ISC',
+  bugs: {
+    url: 'https://github.com/abhiipillai2/NUCLIUS-DATA-COLLECTION-BACK-END/issues'
+  },
+  homepage: 'https://github.com/abhiipillai2/NUCLIUS-DATA-COLLECTION-BACK-END#readme',
+  dependencies: {
+    'body-parser': '^1.20.0',
+    cors: '^2.8.5',
+    dotenv: '^16.0.2',
+    express: '^4.18.1',
+    log4js: '^6.6.1',
+    momment: '^0.0.1',
+    mysql: '^2.18.1'
+  },
+  devDependencies: { nodemon: '^2.0.20' }
+}
+[2022-10-05T16:13:20.271] [INFO] NUCLIUS_DATA - printing port | port : 5080
+[2022-10-05T16:13:20.273] [INFO] NUCLIUS_DATA - checked all dependencies and server start successfully
+[2022-10-05T16:13:20.282] [INFO] NUCLIUS_DATA - setting mySql environment
+[2022-10-05T16:13:20.283] [INFO] NUCLIUS_DATA - checking version match with nodeJs
+[2022-10-05T16:13:20.283] [INFO] NUCLIUS_DATA - matched the versions
+[2022-10-05T16:13:20.283] [INFO] NUCLIUS_DATA - checking environmental variables
+[2022-10-05T16:13:20.283] [INFO] NUCLIUS_DATA - checking pool conection
+[2022-10-05T16:13:20.283] [INFO] NUCLIUS_DATA - geted primary pool | connection thred successfully iniated
+[2022-10-05T16:13:20.283] [INFO] NUCLIUS_DATA - connection time 133 MS
+[2022-10-05T16:13:20.283] [INFO] NUCLIUS_DATA - SQL:SELECT TEST 1
+[2022-10-05T16:13:20.283] [INFO] NUCLIUS_DATA - closing pool | getted maximum connection
+[2022-10-05T16:13:20.284] [INFO] NUCLIUS_DATA - database connection estblished sucessfully
+[2022-10-05T16:13:23.475] [INFO] NUCLIUS_DATA - Request reached from host ::1 and request packet :
+[2022-10-05T16:13:23.475] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'DCSUB001',
+  data: { current: '90', voltage: '09', power: '90' }
+}
+[2022-10-05T16:13:23.475] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-05T16:13:23.475] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : DCSUB001
+[2022-10-05T16:13:23.476] [INFO] NUCLIUS_DATA - inserting current  = 90 | voltage = 09 | power = 90
+[2022-10-05T16:13:23.485] [INFO] NUCLIUS_DATA - connected id 129
+[2022-10-05T16:13:23.485] [INFO] NUCLIUS_DATA - sql query :INSERT INTO DCSUB001 SET seq_id=?
+[2022-10-05T16:13:23.507] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-05T16:13:30.037] [INFO] NUCLIUS_DATA - checking node node environment
+[2022-10-05T16:13:30.039] [INFO] NUCLIUS_DATA - Found that node version is v16.14.2 and is adapt to the running
+[2022-10-05T16:13:30.039] [INFO] NUCLIUS_DATA - checking node modules on system | system get moduels values as ?
+[2022-10-05T16:13:30.039] [INFO] NUCLIUS_DATA - {
+  name: 'node',
+  version: '1.0.0',
+  description: 'R&D',
+  main: 'app.js',
+  scripts: { start: 'nodemon app.js' },
+  repository: {
+    type: 'git',
+    url: 'git+https://github.com/abhiipillai2/NUCLIUS-DATA-COLLECTION-BACK-END.git'
+  },
+  author: 'ATOM DEVELOPERS',
+  license: 'ISC',
+  bugs: {
+    url: 'https://github.com/abhiipillai2/NUCLIUS-DATA-COLLECTION-BACK-END/issues'
+  },
+  homepage: 'https://github.com/abhiipillai2/NUCLIUS-DATA-COLLECTION-BACK-END#readme',
+  dependencies: {
+    'body-parser': '^1.20.0',
+    cors: '^2.8.5',
+    dotenv: '^16.0.2',
+    express: '^4.18.1',
+    log4js: '^6.6.1',
+    momment: '^0.0.1',
+    mysql: '^2.18.1'
+  },
+  devDependencies: { nodemon: '^2.0.20' }
+}
+[2022-10-05T16:13:30.042] [INFO] NUCLIUS_DATA - printing port | port : 5080
+[2022-10-05T16:13:30.044] [INFO] NUCLIUS_DATA - checked all dependencies and server start successfully
+[2022-10-05T16:13:30.053] [INFO] NUCLIUS_DATA - setting mySql environment
+[2022-10-05T16:13:30.054] [INFO] NUCLIUS_DATA - checking version match with nodeJs
+[2022-10-05T16:13:30.054] [INFO] NUCLIUS_DATA - matched the versions
+[2022-10-05T16:13:30.054] [INFO] NUCLIUS_DATA - checking environmental variables
+[2022-10-05T16:13:30.054] [INFO] NUCLIUS_DATA - checking pool conection
+[2022-10-05T16:13:30.054] [INFO] NUCLIUS_DATA - geted primary pool | connection thred successfully iniated
+[2022-10-05T16:13:30.054] [INFO] NUCLIUS_DATA - connection time 133 MS
+[2022-10-05T16:13:30.055] [INFO] NUCLIUS_DATA - SQL:SELECT TEST 1
+[2022-10-05T16:13:30.055] [INFO] NUCLIUS_DATA - closing pool | getted maximum connection
+[2022-10-05T16:13:30.055] [INFO] NUCLIUS_DATA - database connection estblished sucessfully
+[2022-10-05T16:13:36.444] [INFO] NUCLIUS_DATA - Request reached from host ::1 and request packet :
+[2022-10-05T16:13:36.444] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'DCSUB001',
+  data: { current: '90', voltage: '09', power: '90' }
+}
+[2022-10-05T16:13:36.445] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-05T16:13:36.446] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : DCSUB001
+[2022-10-05T16:13:36.446] [INFO] NUCLIUS_DATA - inserting current  = 90 | voltage = 09 | power = 90
+[2022-10-05T16:13:36.452] [INFO] NUCLIUS_DATA - connected id 131
+[2022-10-05T16:13:36.452] [INFO] NUCLIUS_DATA - sql query :INSERT INTO DCSUB001 SET seq_id=?
+[2022-10-05T16:13:36.480] [ERROR] NUCLIUS_DATA - databse error
+[2022-10-05T16:13:36.480] [ERROR] NUCLIUS_DATA - Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DCSUB001 (current,voltage,power) VALUES('90','09','90')' at line 1
+    at Query.Sequence._packetToError (D:\R&D\datacollection_back_end\NODE\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\R&D\datacollection_back_end\NODE\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\R&D\datacollection_back_end\NODE\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\R&D\datacollection_back_end\NODE\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\R&D\datacollection_back_end\NODE\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\R&D\datacollection_back_end\NODE\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\R&D\datacollection_back_end\NODE\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\R&D\datacollection_back_end\NODE\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:526:28)
+    at addChunk (node:internal/streams/readable:315:12)
     --------------------
     at Protocol._enqueue (D:\R&D\datacollection_back_end\NODE\node_modules\mysql\lib\protocol\Protocol.js:144:48)
-    at Protocol.handshake (D:\R&D\datacollection_back_end\NODE\node_modules\mysql\lib\protocol\Protocol.js:51:23)
-    at PoolConnection.connect (D:\R&D\datacollection_back_end\NODE\node_modules\mysql\lib\Connection.js:116:18)
-    at Pool.getConnection (D:\R&D\datacollection_back_end\NODE\node_modules\mysql\lib\Pool.js:48:16)
-    at Object.<anonymous> (D:\R&D\datacollection_back_end\NODE\models\dataBseAdapter.js:15:6)
-    at Module._compile (node:internal/modules/cjs/loader:1103:14)
-    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
-    at Module.load (node:internal/modules/cjs/loader:981:32)
-    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
-    at Module.require (node:internal/modules/cjs/loader:1005:19) {
-  errno: -4078,
-  code: 'ECONNREFUSED',
-  syscall: 'connect',
-  address: '127.0.0.1',
-  port: 3306,
-  fatal: true
+    at PoolConnection.query (D:\R&D\datacollection_back_end\NODE\node_modules\mysql\lib\Connection.js:198:25)
+    at D:\R&D\datacollection_back_end\NODE\controler\masterController.js:44:28
+    at Handshake.onConnect (D:\R&D\datacollection_back_end\NODE\node_modules\mysql\lib\Pool.js:64:7)
+    at Handshake.<anonymous> (D:\R&D\datacollection_back_end\NODE\node_modules\mysql\lib\Connection.js:526:10)
+    at Handshake._callback (D:\R&D\datacollection_back_end\NODE\node_modules\mysql\lib\Connection.js:488:16)
+    at Handshake.Sequence.end (D:\R&D\datacollection_back_end\NODE\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Handshake.Sequence.OkPacket (D:\R&D\datacollection_back_end\NODE\node_modules\mysql\lib\protocol\sequences\Sequence.js:92:8)
+    at Protocol._parsePacket (D:\R&D\datacollection_back_end\NODE\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\R&D\datacollection_back_end\NODE\node_modules\mysql\lib\protocol\Parser.js:433:10) {
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DCSUB001 (current,voltage,power) VALUES('90','09','90')' at line 1",
+  sqlState: '42000',
+  index: 0,
+  sql: "INSERT ITO DCSUB001 (current,voltage,power) VALUES('90','09','90')"
 }
+[2022-10-05T16:14:03.547] [INFO] NUCLIUS_DATA - checking node node environment
+[2022-10-05T16:14:03.549] [INFO] NUCLIUS_DATA - Found that node version is v16.14.2 and is adapt to the running
+[2022-10-05T16:14:03.549] [INFO] NUCLIUS_DATA - checking node modules on system | system get moduels values as ?
+[2022-10-05T16:14:03.549] [INFO] NUCLIUS_DATA - {
+  name: 'node',
+  version: '1.0.0',
+  description: 'R&D',
+  main: 'app.js',
+  scripts: { start: 'nodemon app.js' },
+  repository: {
+    type: 'git',
+    url: 'git+https://github.com/abhiipillai2/NUCLIUS-DATA-COLLECTION-BACK-END.git'
+  },
+  author: 'ATOM DEVELOPERS',
+  license: 'ISC',
+  bugs: {
+    url: 'https://github.com/abhiipillai2/NUCLIUS-DATA-COLLECTION-BACK-END/issues'
+  },
+  homepage: 'https://github.com/abhiipillai2/NUCLIUS-DATA-COLLECTION-BACK-END#readme',
+  dependencies: {
+    'body-parser': '^1.20.0',
+    cors: '^2.8.5',
+    dotenv: '^16.0.2',
+    express: '^4.18.1',
+    log4js: '^6.6.1',
+    momment: '^0.0.1',
+    mysql: '^2.18.1'
+  },
+  devDependencies: { nodemon: '^2.0.20' }
+}
+[2022-10-05T16:14:03.551] [INFO] NUCLIUS_DATA - printing port | port : 5080
+[2022-10-05T16:14:03.553] [INFO] NUCLIUS_DATA - checked all dependencies and server start successfully
+[2022-10-05T16:14:03.564] [INFO] NUCLIUS_DATA - setting mySql environment
+[2022-10-05T16:14:03.564] [INFO] NUCLIUS_DATA - checking version match with nodeJs
+[2022-10-05T16:14:03.564] [INFO] NUCLIUS_DATA - matched the versions
+[2022-10-05T16:14:03.564] [INFO] NUCLIUS_DATA - checking environmental variables
+[2022-10-05T16:14:03.564] [INFO] NUCLIUS_DATA - checking pool conection
+[2022-10-05T16:14:03.565] [INFO] NUCLIUS_DATA - geted primary pool | connection thred successfully iniated
+[2022-10-05T16:14:03.565] [INFO] NUCLIUS_DATA - connection time 133 MS
+[2022-10-05T16:14:03.565] [INFO] NUCLIUS_DATA - SQL:SELECT TEST 1
+[2022-10-05T16:14:03.565] [INFO] NUCLIUS_DATA - closing pool | getted maximum connection
+[2022-10-05T16:14:03.565] [INFO] NUCLIUS_DATA - database connection estblished sucessfully
+[2022-10-05T16:14:05.900] [INFO] NUCLIUS_DATA - Request reached from host ::1 and request packet :
+[2022-10-05T16:14:05.900] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'DCSUB001',
+  data: { current: '90', voltage: '09', power: '90' }
+}
+[2022-10-05T16:14:05.901] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-05T16:14:05.901] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : DCSUB001
+[2022-10-05T16:14:05.901] [INFO] NUCLIUS_DATA - inserting current  = 90 | voltage = 09 | power = 90
+[2022-10-05T16:14:05.904] [INFO] NUCLIUS_DATA - connected id 133
+[2022-10-05T16:14:05.904] [INFO] NUCLIUS_DATA - sql query :INSERT INTO DCSUB001 SET seq_id=?
+[2022-10-05T16:14:05.912] [ERROR] NUCLIUS_DATA - databse error
+[2022-10-05T16:14:05.912] [ERROR] NUCLIUS_DATA - Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DCSUB001 (current,voltage,power) VALUES('90','09','90')' at line 1
+    at Query.Sequence._packetToError (D:\R&D\datacollection_back_end\NODE\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\R&D\datacollection_back_end\NODE\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\R&D\datacollection_back_end\NODE\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\R&D\datacollection_back_end\NODE\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\R&D\datacollection_back_end\NODE\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\R&D\datacollection_back_end\NODE\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\R&D\datacollection_back_end\NODE\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\R&D\datacollection_back_end\NODE\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:526:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Protocol._enqueue (D:\R&D\datacollection_back_end\NODE\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (D:\R&D\datacollection_back_end\NODE\node_modules\mysql\lib\Connection.js:198:25)
+    at D:\R&D\datacollection_back_end\NODE\controler\masterController.js:44:28
+    at Handshake.onConnect (D:\R&D\datacollection_back_end\NODE\node_modules\mysql\lib\Pool.js:64:7)
+    at Handshake.<anonymous> (D:\R&D\datacollection_back_end\NODE\node_modules\mysql\lib\Connection.js:526:10)
+    at Handshake._callback (D:\R&D\datacollection_back_end\NODE\node_modules\mysql\lib\Connection.js:488:16)
+    at Handshake.Sequence.end (D:\R&D\datacollection_back_end\NODE\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Handshake.Sequence.OkPacket (D:\R&D\datacollection_back_end\NODE\node_modules\mysql\lib\protocol\sequences\Sequence.js:92:8)
+    at Protocol._parsePacket (D:\R&D\datacollection_back_end\NODE\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\R&D\datacollection_back_end\NODE\node_modules\mysql\lib\protocol\Parser.js:433:10) {
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DCSUB001 (current,voltage,power) VALUES('90','09','90')' at line 1",
+  sqlState: '42000',
+  index: 0,
+  sql: "INSERT ITO DCSUB001 (current,voltage,power) VALUES('90','09','90')"
+}
+[2022-10-05T16:14:16.752] [INFO] NUCLIUS_DATA - checking node node environment
+[2022-10-05T16:14:16.755] [INFO] NUCLIUS_DATA - Found that node version is v16.14.2 and is adapt to the running
+[2022-10-05T16:14:16.755] [INFO] NUCLIUS_DATA - checking node modules on system | system get moduels values as ?
+[2022-10-05T16:14:16.755] [INFO] NUCLIUS_DATA - {
+  name: 'node',
+  version: '1.0.0',
+  description: 'R&D',
+  main: 'app.js',
+  scripts: { start: 'nodemon app.js' },
+  repository: {
+    type: 'git',
+    url: 'git+https://github.com/abhiipillai2/NUCLIUS-DATA-COLLECTION-BACK-END.git'
+  },
+  author: 'ATOM DEVELOPERS',
+  license: 'ISC',
+  bugs: {
+    url: 'https://github.com/abhiipillai2/NUCLIUS-DATA-COLLECTION-BACK-END/issues'
+  },
+  homepage: 'https://github.com/abhiipillai2/NUCLIUS-DATA-COLLECTION-BACK-END#readme',
+  dependencies: {
+    'body-parser': '^1.20.0',
+    cors: '^2.8.5',
+    dotenv: '^16.0.2',
+    express: '^4.18.1',
+    log4js: '^6.6.1',
+    momment: '^0.0.1',
+    mysql: '^2.18.1'
+  },
+  devDependencies: { nodemon: '^2.0.20' }
+}
+[2022-10-05T16:14:16.758] [INFO] NUCLIUS_DATA - printing port | port : 5080
+[2022-10-05T16:14:16.759] [INFO] NUCLIUS_DATA - checked all dependencies and server start successfully
+[2022-10-05T16:14:16.780] [INFO] NUCLIUS_DATA - setting mySql environment
+[2022-10-05T16:14:16.780] [INFO] NUCLIUS_DATA - checking version match with nodeJs
+[2022-10-05T16:14:16.780] [INFO] NUCLIUS_DATA - matched the versions
+[2022-10-05T16:14:16.781] [INFO] NUCLIUS_DATA - checking environmental variables
+[2022-10-05T16:14:16.781] [INFO] NUCLIUS_DATA - checking pool conection
+[2022-10-05T16:14:16.781] [INFO] NUCLIUS_DATA - geted primary pool | connection thred successfully iniated
+[2022-10-05T16:14:16.781] [INFO] NUCLIUS_DATA - connection time 133 MS
+[2022-10-05T16:14:16.781] [INFO] NUCLIUS_DATA - SQL:SELECT TEST 1
+[2022-10-05T16:14:16.781] [INFO] NUCLIUS_DATA - closing pool | getted maximum connection
+[2022-10-05T16:14:16.781] [INFO] NUCLIUS_DATA - database connection estblished sucessfully
+[2022-10-05T17:11:48.067] [INFO] NUCLIUS_DATA - checking node node environment
+[2022-10-05T17:11:48.070] [INFO] NUCLIUS_DATA - Found that node version is v16.14.2 and is adapt to the running
+[2022-10-05T17:11:48.070] [INFO] NUCLIUS_DATA - checking node modules on system | system get moduels values as ?
+[2022-10-05T17:11:48.070] [INFO] NUCLIUS_DATA - {
+  name: 'node',
+  version: '1.0.0',
+  description: 'R&D',
+  main: 'app.js',
+  scripts: { start: 'nodemon app.js' },
+  repository: {
+    type: 'git',
+    url: 'git+https://github.com/abhiipillai2/NUCLIUS-DATA-COLLECTION-BACK-END.git'
+  },
+  author: 'ATOM DEVELOPERS',
+  license: 'ISC',
+  bugs: {
+    url: 'https://github.com/abhiipillai2/NUCLIUS-DATA-COLLECTION-BACK-END/issues'
+  },
+  homepage: 'https://github.com/abhiipillai2/NUCLIUS-DATA-COLLECTION-BACK-END#readme',
+  dependencies: {
+    'body-parser': '^1.20.0',
+    cors: '^2.8.5',
+    dotenv: '^16.0.2',
+    express: '^4.18.1',
+    log4js: '^6.6.1',
+    momment: '^0.0.1',
+    mysql: '^2.18.1'
+  },
+  devDependencies: { nodemon: '^2.0.20' }
+}
+[2022-10-05T17:11:48.074] [INFO] NUCLIUS_DATA - printing port | port : 5080
+[2022-10-05T17:11:48.075] [INFO] NUCLIUS_DATA - checked all dependencies and server start successfully
+[2022-10-05T17:11:48.092] [INFO] NUCLIUS_DATA - setting mySql environment
+[2022-10-05T17:11:48.092] [INFO] NUCLIUS_DATA - checking version match with nodeJs
+[2022-10-05T17:11:48.093] [INFO] NUCLIUS_DATA - matched the versions
+[2022-10-05T17:11:48.093] [INFO] NUCLIUS_DATA - checking environmental variables
+[2022-10-05T17:11:48.093] [INFO] NUCLIUS_DATA - checking pool conection
+[2022-10-05T17:11:48.093] [INFO] NUCLIUS_DATA - geted primary pool | connection thred successfully iniated
+[2022-10-05T17:11:48.093] [INFO] NUCLIUS_DATA - connection time 133 MS
+[2022-10-05T17:11:48.093] [INFO] NUCLIUS_DATA - SQL:SELECT TEST 1
+[2022-10-05T17:11:48.093] [INFO] NUCLIUS_DATA - closing pool | getted maximum connection
+[2022-10-05T17:11:48.093] [INFO] NUCLIUS_DATA - database connection estblished sucessfully

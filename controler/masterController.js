@@ -43,6 +43,20 @@ exports.dataPush = (req, res) => {
         
                 connection.query('INSERT INTO ' + hardwareId + ' (current,voltage,power) VALUES(?,?,?)', [ current , voltage , power ], (err, rows) => {
                 connection.release()
+                if (!err) {
+
+                    res.send({
+                        "statusCode": "SC0000",
+                        "statusDesc": "Success"
+                    })
+                    logger.info("data successfully inserted");
+                } else {
+
+                    logger.error("databse error");
+                    logger.error(err);
+                    throw err
+                    
+                }
                 });
         
             });
@@ -50,24 +64,24 @@ exports.dataPush = (req, res) => {
             
         }else{
             
-            logger.info(`primary validation is failed`)
+            logger.error(`primary validation is failed`)
             throw "Primary validation error: Paramas not correct";
-            logger.info(error)
+            
         }
 
     console.log(body.data.current)
     
 
-    res.send({
-        "statusCode": "SC0000",
-        "statusDesc": "Success"
-    })
+    // res.send({
+    //     "statusCode": "SC0000",
+    //     "statusDesc": "Success"
+    // })
         
-    } catch (error) {
+    } catch (err) {
         
         res.status(400).json({
             "statusDesc": "Failure",
-            "message" : error
+            "message" : err
         })
     }
     
