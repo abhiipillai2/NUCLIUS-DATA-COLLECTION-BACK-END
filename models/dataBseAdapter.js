@@ -5,11 +5,12 @@ require('dotenv').config()
 //database connection
 
 const pool = mysql.createPool({
-    connectionLimit: 10,
+    connectionLimit: process.env.DATABASE_CONNECTION,
     host: process.env.DATABASE_HOST,
     user: process.env.DATABASE_USER,
     password: process.env.DATABASE_PASSWORD,
     database: process.env.DATABASE,
+    port:process.env.DATABASE_PORT
 });
 //for gettng connection stutus
 pool.getConnection((err, connection) => {
