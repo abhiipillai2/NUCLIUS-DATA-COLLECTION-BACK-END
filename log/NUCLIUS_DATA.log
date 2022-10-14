@@ -7543,3 +7543,1536 @@
 [2022-10-07T23:18:58.904] [INFO] NUCLIUS_DATA - SQL:SELECT TEST 1
 [2022-10-07T23:18:58.904] [INFO] NUCLIUS_DATA - closing pool | getted maximum connection
 [2022-10-07T23:18:58.904] [INFO] NUCLIUS_DATA - database connection estblished sucessfully
+[2022-10-09T23:32:09.228] [INFO] NUCLIUS_DATA - checking node node environment
+[2022-10-09T23:32:09.236] [INFO] NUCLIUS_DATA - Found that node version is v16.14.2 and is adapt to the running
+[2022-10-09T23:32:09.236] [INFO] NUCLIUS_DATA - checking node modules on system | system get moduels values as ?
+[2022-10-09T23:32:09.236] [INFO] NUCLIUS_DATA - {
+  name: 'node',
+  version: '1.0.0',
+  description: 'R&D',
+  main: 'app.js',
+  scripts: { start: 'nodemon app.js' },
+  repository: {
+    type: 'git',
+    url: 'git+https://github.com/abhiipillai2/NUCLIUS-DATA-COLLECTION-BACK-END.git'
+  },
+  author: 'ATOM DEVELOPERS',
+  license: 'ISC',
+  bugs: {
+    url: 'https://github.com/abhiipillai2/NUCLIUS-DATA-COLLECTION-BACK-END/issues'
+  },
+  homepage: 'https://github.com/abhiipillai2/NUCLIUS-DATA-COLLECTION-BACK-END#readme',
+  dependencies: {
+    'body-parser': '^1.20.0',
+    cors: '^2.8.5',
+    dotenv: '^16.0.2',
+    express: '^4.18.1',
+    log4js: '^6.6.1',
+    momment: '^0.0.1',
+    mysql: '^2.18.1'
+  },
+  devDependencies: { nodemon: '^2.0.20' }
+}
+[2022-10-09T23:32:09.244] [INFO] NUCLIUS_DATA - printing port | port : 5080
+[2022-10-09T23:32:09.247] [INFO] NUCLIUS_DATA - checked all dependencies and server start successfully
+[2022-10-09T23:32:09.278] [DEBUG] NUCLIUS_DATA - databas is not connected
+[2022-10-09T23:32:09.279] [ERROR] NUCLIUS_DATA - Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)
+    --------------------
+    at Protocol._enqueue (D:\R&D\datacollection_back_end\NODE\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (D:\R&D\datacollection_back_end\NODE\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (D:\R&D\datacollection_back_end\NODE\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (D:\R&D\datacollection_back_end\NODE\node_modules\mysql\lib\Pool.js:48:16)
+    at Object.<anonymous> (D:\R&D\datacollection_back_end\NODE\models\dataBseAdapter.js:16:6)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+[2022-10-09T23:32:28.082] [INFO] NUCLIUS_DATA - checking node node environment
+[2022-10-09T23:32:28.096] [INFO] NUCLIUS_DATA - Found that node version is v16.14.2 and is adapt to the running
+[2022-10-09T23:32:28.096] [INFO] NUCLIUS_DATA - checking node modules on system | system get moduels values as ?
+[2022-10-09T23:32:28.096] [INFO] NUCLIUS_DATA - {
+  name: 'node',
+  version: '1.0.0',
+  description: 'R&D',
+  main: 'app.js',
+  scripts: { start: 'nodemon app.js' },
+  repository: {
+    type: 'git',
+    url: 'git+https://github.com/abhiipillai2/NUCLIUS-DATA-COLLECTION-BACK-END.git'
+  },
+  author: 'ATOM DEVELOPERS',
+  license: 'ISC',
+  bugs: {
+    url: 'https://github.com/abhiipillai2/NUCLIUS-DATA-COLLECTION-BACK-END/issues'
+  },
+  homepage: 'https://github.com/abhiipillai2/NUCLIUS-DATA-COLLECTION-BACK-END#readme',
+  dependencies: {
+    'body-parser': '^1.20.0',
+    cors: '^2.8.5',
+    dotenv: '^16.0.2',
+    express: '^4.18.1',
+    log4js: '^6.6.1',
+    momment: '^0.0.1',
+    mysql: '^2.18.1'
+  },
+  devDependencies: { nodemon: '^2.0.20' }
+}
+[2022-10-09T23:32:28.101] [INFO] NUCLIUS_DATA - printing port | port : 5080
+[2022-10-09T23:32:28.102] [INFO] NUCLIUS_DATA - checked all dependencies and server start successfully
+[2022-10-09T23:32:28.133] [INFO] NUCLIUS_DATA - setting mySql environment
+[2022-10-09T23:32:28.134] [INFO] NUCLIUS_DATA - checking version match with nodeJs
+[2022-10-09T23:32:28.134] [INFO] NUCLIUS_DATA - matched the versions
+[2022-10-09T23:32:28.135] [INFO] NUCLIUS_DATA - checking environmental variables
+[2022-10-09T23:32:28.135] [INFO] NUCLIUS_DATA - checking pool conection
+[2022-10-09T23:32:28.135] [INFO] NUCLIUS_DATA - geted primary pool | connection thred successfully iniated
+[2022-10-09T23:32:28.135] [INFO] NUCLIUS_DATA - connection time 133 MS
+[2022-10-09T23:32:28.135] [INFO] NUCLIUS_DATA - SQL:SELECT TEST 1
+[2022-10-09T23:32:28.135] [INFO] NUCLIUS_DATA - closing pool | getted maximum connection
+[2022-10-09T23:32:28.135] [INFO] NUCLIUS_DATA - database connection estblished sucessfully
+[2022-10-09T23:53:07.415] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-09T23:53:07.428] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: {
+    current: -0.300000012,
+    voltage: 1.124023648e-14,
+    power: -3.372070986e-15
+  }
+}
+[2022-10-09T23:53:07.430] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-09T23:53:07.430] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-09T23:53:07.431] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 1.124023648e-14 | power = -3.372070986e-15
+[2022-10-09T23:53:07.471] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-09T23:53:07.471] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-09T23:53:07.589] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-09T23:53:18.279] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-09T23:53:18.279] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 1.401298464e-45, power: 0 }
+}
+[2022-10-09T23:53:18.279] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-09T23:53:18.279] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-09T23:53:18.280] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 1.401298464e-45 | power = 0
+[2022-10-09T23:53:18.285] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-09T23:53:18.285] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-09T23:53:18.298] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-09T23:53:28.935] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-09T23:53:28.935] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-09T23:53:28.936] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-09T23:53:28.936] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-09T23:53:28.937] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-09T23:53:28.947] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-09T23:53:28.948] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-09T23:53:28.976] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-09T23:53:39.589] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-09T23:53:39.589] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-09T23:53:39.590] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-09T23:53:39.590] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-09T23:53:39.590] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-09T23:53:39.599] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-09T23:53:39.599] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-09T23:53:39.619] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-09T23:54:05.701] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-09T23:54:05.701] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: {
+    current: -0.300000012,
+    voltage: 1.196944037e-14,
+    power: -3.590832279e-15
+  }
+}
+[2022-10-09T23:54:05.701] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-09T23:54:05.701] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-09T23:54:05.701] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 1.196944037e-14 | power = -3.590832279e-15
+[2022-10-09T23:54:05.703] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-09T23:54:05.704] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-09T23:54:05.715] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-09T23:54:16.322] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-09T23:54:16.322] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-09T23:54:16.322] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-09T23:54:16.322] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-09T23:54:16.323] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-09T23:54:16.324] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-09T23:54:16.324] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-09T23:54:16.338] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-09T23:54:26.986] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-09T23:54:26.987] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-09T23:54:26.988] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-09T23:54:26.988] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-09T23:54:26.988] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-09T23:54:26.989] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-09T23:54:26.989] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-09T23:54:27.006] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-09T23:54:37.637] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-09T23:54:37.637] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-09T23:54:37.637] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-09T23:54:37.637] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-09T23:54:37.637] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-09T23:54:37.640] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-09T23:54:37.640] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-09T23:54:37.669] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-09T23:54:48.287] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-09T23:54:48.287] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-09T23:54:48.287] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-09T23:54:48.287] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-09T23:54:48.287] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-09T23:54:48.289] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-09T23:54:48.289] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-09T23:54:48.304] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-09T23:54:58.910] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-09T23:54:58.910] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-09T23:54:58.910] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-09T23:54:58.910] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-09T23:54:58.910] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-09T23:54:58.912] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-09T23:54:58.912] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-09T23:54:58.925] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-09T23:55:09.528] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-09T23:55:09.528] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-09T23:55:09.528] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-09T23:55:09.528] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-09T23:55:09.528] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-09T23:55:09.530] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-09T23:55:09.530] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-09T23:55:09.546] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-09T23:55:20.244] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-09T23:55:20.244] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-09T23:55:20.244] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-09T23:55:20.245] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-09T23:55:20.245] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-09T23:55:20.246] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-09T23:55:20.246] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-09T23:55:20.254] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-09T23:55:30.862] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-09T23:55:30.862] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-09T23:55:30.862] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-09T23:55:30.862] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-09T23:55:30.862] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-09T23:55:30.865] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-09T23:55:30.865] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-09T23:55:30.878] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-09T23:55:41.513] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-09T23:55:41.513] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-09T23:55:41.513] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-09T23:55:41.513] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-09T23:55:41.513] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-09T23:55:41.515] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-09T23:55:41.515] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-09T23:55:41.529] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-09T23:55:52.143] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-09T23:55:52.144] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-09T23:55:52.144] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-09T23:55:52.144] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-09T23:55:52.144] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-09T23:55:52.148] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-09T23:55:52.148] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-09T23:55:52.168] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-09T23:56:02.790] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-09T23:56:02.790] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-09T23:56:02.790] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-09T23:56:02.790] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-09T23:56:02.790] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-09T23:56:02.792] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-09T23:56:02.792] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-09T23:56:02.807] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-09T23:56:13.436] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-09T23:56:13.436] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-09T23:56:13.436] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-09T23:56:13.436] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-09T23:56:13.436] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-09T23:56:13.438] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-09T23:56:13.438] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-09T23:56:13.456] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-09T23:56:24.074] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-09T23:56:24.074] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-09T23:56:24.074] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-09T23:56:24.074] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-09T23:56:24.074] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-09T23:56:24.075] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-09T23:56:24.075] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-09T23:56:24.094] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-09T23:56:34.784] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-09T23:56:34.784] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-09T23:56:34.784] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-09T23:56:34.784] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-09T23:56:34.784] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-09T23:56:34.785] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-09T23:56:34.785] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-09T23:56:34.791] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-09T23:56:45.387] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-09T23:56:45.387] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-09T23:56:45.387] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-09T23:56:45.388] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-09T23:56:45.388] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-09T23:56:45.390] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-09T23:56:45.390] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-09T23:56:45.406] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-09T23:56:56.023] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-09T23:56:56.023] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-09T23:56:56.023] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-09T23:56:56.024] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-09T23:56:56.024] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-09T23:56:56.027] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-09T23:56:56.027] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-09T23:56:56.038] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-09T23:57:06.660] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-09T23:57:06.660] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-09T23:57:06.660] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-09T23:57:06.660] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-09T23:57:06.660] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-09T23:57:06.664] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-09T23:57:06.664] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-09T23:57:06.670] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-09T23:57:17.282] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-09T23:57:17.283] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-09T23:57:17.283] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-09T23:57:17.283] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-09T23:57:17.283] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-09T23:57:17.284] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-09T23:57:17.285] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-09T23:57:17.298] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-09T23:57:27.913] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-09T23:57:27.913] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-09T23:57:27.913] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-09T23:57:27.913] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-09T23:57:27.913] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-09T23:57:27.914] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-09T23:57:27.915] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-09T23:57:27.921] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-09T23:57:38.549] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-09T23:57:38.549] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-09T23:57:38.549] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-09T23:57:38.549] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-09T23:57:38.549] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-09T23:57:38.551] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-09T23:57:38.551] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-09T23:57:38.565] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-09T23:57:49.166] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-09T23:57:49.166] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-09T23:57:49.166] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-09T23:57:49.166] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-09T23:57:49.166] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-09T23:57:49.168] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-09T23:57:49.168] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-09T23:57:49.184] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-09T23:57:59.875] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-09T23:57:59.875] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-09T23:57:59.875] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-09T23:57:59.876] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-09T23:57:59.876] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-09T23:57:59.877] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-09T23:57:59.877] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-09T23:57:59.889] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-09T23:58:10.526] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-09T23:58:10.526] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-09T23:58:10.527] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-09T23:58:10.527] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-09T23:58:10.527] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-09T23:58:10.529] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-09T23:58:10.529] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-09T23:58:10.544] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-09T23:58:21.146] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-09T23:58:21.146] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-09T23:58:21.146] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-09T23:58:21.146] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-09T23:58:21.146] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-09T23:58:21.149] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-09T23:58:21.149] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-09T23:58:21.158] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-09T23:58:31.830] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-09T23:58:31.830] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-09T23:58:31.830] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-09T23:58:31.830] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-09T23:58:31.830] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-09T23:58:31.833] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-09T23:58:31.833] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-09T23:58:31.845] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-09T23:58:42.469] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-09T23:58:42.469] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-09T23:58:42.470] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-09T23:58:42.470] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-09T23:58:42.470] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-09T23:58:42.471] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-09T23:58:42.472] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-09T23:58:42.488] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-09T23:58:53.129] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-09T23:58:53.129] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-09T23:58:53.129] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-09T23:58:53.129] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-09T23:58:53.136] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-09T23:58:53.138] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-09T23:58:53.139] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-09T23:58:53.149] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-09T23:59:03.894] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-09T23:59:03.894] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-09T23:59:03.895] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-09T23:59:03.895] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-09T23:59:03.895] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-09T23:59:03.896] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-09T23:59:03.896] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-09T23:59:03.903] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-09T23:59:14.523] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-09T23:59:14.523] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-09T23:59:14.523] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-09T23:59:14.523] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-09T23:59:14.523] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-09T23:59:14.527] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-09T23:59:14.527] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-09T23:59:14.539] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-09T23:59:25.150] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-09T23:59:25.150] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-09T23:59:25.150] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-09T23:59:25.150] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-09T23:59:25.150] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-09T23:59:25.151] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-09T23:59:25.151] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-09T23:59:25.156] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-09T23:59:35.832] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-09T23:59:35.832] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-09T23:59:35.833] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-09T23:59:35.833] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-09T23:59:35.833] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-09T23:59:35.839] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-09T23:59:35.839] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-09T23:59:35.849] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-09T23:59:46.459] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-09T23:59:46.459] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-09T23:59:46.459] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-09T23:59:46.459] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-09T23:59:46.459] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-09T23:59:46.462] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-09T23:59:46.462] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-09T23:59:46.474] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-09T23:59:57.126] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-09T23:59:57.126] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-09T23:59:57.126] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-09T23:59:57.126] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-09T23:59:57.126] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-09T23:59:57.129] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-09T23:59:57.129] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-09T23:59:57.156] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:00:07.770] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:00:07.770] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:00:07.770] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:00:07.770] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:00:07.770] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:00:07.774] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:00:07.775] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:00:07.789] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:00:18.525] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:00:18.525] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:00:18.525] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:00:18.525] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:00:18.525] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:00:18.528] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:00:18.528] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:00:18.543] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:00:29.156] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:00:29.156] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:00:29.156] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:00:29.156] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:00:29.156] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:00:29.158] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:00:29.158] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:00:29.172] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:00:39.800] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:00:39.800] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:00:39.800] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:00:39.800] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:00:39.800] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:00:39.801] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:00:39.801] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:00:39.819] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:00:50.492] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:00:50.492] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:00:50.492] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:00:50.492] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:00:50.492] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:00:50.494] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:00:50.494] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:00:50.509] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:01:01.125] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:01:01.125] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:01:01.125] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:01:01.125] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:01:01.125] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:01:01.129] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:01:01.129] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:01:01.142] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:01:11.772] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:01:11.772] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:01:11.773] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:01:11.773] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:01:11.773] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:01:11.774] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:01:11.775] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:01:11.787] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:01:22.418] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:01:22.419] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:01:22.419] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:01:22.419] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:01:22.419] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:01:22.420] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:01:22.420] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:01:22.434] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:01:33.076] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:01:33.076] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:01:33.076] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:01:33.076] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:01:33.076] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:01:33.078] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:01:33.078] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:01:33.089] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:01:43.703] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:01:43.703] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:01:43.703] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:01:43.703] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:01:43.703] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:01:43.704] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:01:43.704] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:01:43.718] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:01:54.332] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:01:54.333] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:01:54.333] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:01:54.333] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:01:54.333] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:01:54.334] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:01:54.334] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:01:54.347] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:02:04.960] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:02:04.960] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:02:04.961] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:02:04.961] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:02:04.961] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:02:04.963] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:02:04.963] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:02:04.975] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:02:15.582] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:02:15.583] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:02:15.583] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:02:15.583] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:02:15.583] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:02:15.584] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:02:15.584] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:02:15.600] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:02:26.225] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:02:26.225] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:02:26.225] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:02:26.225] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:02:26.225] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:02:26.228] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:02:26.228] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:02:26.240] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:02:36.871] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:02:36.871] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:02:36.872] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:02:36.872] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:02:36.872] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:02:36.874] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:02:36.874] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:02:36.886] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:02:47.491] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:02:47.491] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:02:47.491] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:02:47.491] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:02:47.491] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:02:47.497] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:02:47.498] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:02:47.532] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:02:58.167] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:02:58.167] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:02:58.167] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:02:58.167] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:02:58.167] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:02:58.169] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:02:58.169] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:02:58.173] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:03:08.817] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:03:08.817] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:03:08.817] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:03:08.817] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:03:08.817] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:03:08.820] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:03:08.820] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:03:08.834] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:03:19.570] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:03:19.570] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:03:19.570] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:03:19.570] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:03:19.570] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:03:19.573] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:03:19.573] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:03:19.586] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:03:30.214] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:03:30.214] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:03:30.214] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:03:30.214] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:03:30.214] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:03:30.217] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:03:30.218] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:03:30.230] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:03:40.858] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:03:40.858] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:03:40.858] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:03:40.859] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:03:40.859] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:03:40.860] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:03:40.860] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:03:40.873] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:03:51.519] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:03:51.519] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:03:51.520] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:03:51.520] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:03:51.520] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:03:51.521] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:03:51.521] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:03:51.534] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:04:02.141] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:04:02.141] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:04:02.141] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:04:02.142] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:04:02.142] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:04:02.146] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:04:02.146] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:04:02.164] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:04:12.773] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:04:12.773] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:04:12.773] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:04:12.773] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:04:12.773] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:04:12.780] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:04:12.780] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:04:12.793] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:04:23.399] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:04:23.399] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:04:23.399] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:04:23.399] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:04:23.399] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:04:23.400] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:04:23.401] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:04:23.412] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:04:34.033] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:04:34.034] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:04:34.034] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:04:34.034] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:04:34.034] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:04:34.038] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:04:34.038] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:04:34.050] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:04:44.674] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:04:44.674] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:04:44.674] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:04:44.674] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:04:44.674] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:04:44.675] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:04:44.676] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:04:44.695] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:04:55.423] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:04:55.423] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:04:55.423] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:04:55.423] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:04:55.423] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:04:55.424] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:04:55.424] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:04:55.429] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:05:06.047] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:05:06.048] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:05:06.048] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:05:06.048] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:05:06.048] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:05:06.050] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:05:06.051] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:05:06.062] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:05:16.670] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:05:16.670] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:05:16.670] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:05:16.670] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:05:16.670] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:05:16.672] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:05:16.672] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:05:16.683] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:05:27.363] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:05:27.363] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:05:27.363] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:05:27.363] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:05:27.364] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:05:27.369] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:05:27.369] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:05:27.385] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:05:37.994] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:05:37.994] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:05:37.994] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:05:37.994] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:05:37.995] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:05:37.998] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:05:37.998] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:05:38.010] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:05:48.624] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:05:48.624] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:05:48.624] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:05:48.624] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:05:48.624] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:05:48.625] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:05:48.625] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:05:48.636] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:05:59.239] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:05:59.239] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:05:59.239] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:05:59.239] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:05:59.239] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:05:59.243] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:05:59.243] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:05:59.255] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:06:09.868] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:06:09.868] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:06:09.868] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:06:09.868] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:06:09.868] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:06:09.869] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:06:09.869] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:06:09.880] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:06:20.510] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:06:20.510] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:06:20.510] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:06:20.510] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:06:20.510] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:06:20.514] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:06:20.514] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:06:20.531] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:06:31.159] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:06:31.159] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:06:31.159] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:06:31.159] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:06:31.159] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:06:31.253] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:06:31.253] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:06:31.265] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:06:42.021] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:06:42.021] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:06:42.021] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:06:42.021] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:06:42.021] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:06:42.023] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:06:42.024] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:06:42.029] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:06:52.643] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:06:52.643] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:06:52.643] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:06:52.643] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:06:52.643] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:06:52.645] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:06:52.645] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:06:52.653] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:07:03.255] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:07:03.255] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:07:03.255] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:07:03.255] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:07:03.255] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:07:03.256] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:07:03.256] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:07:03.261] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:07:13.868] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:07:13.868] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:07:13.868] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:07:13.868] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:07:13.868] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:07:13.869] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:07:13.870] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:07:13.876] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:07:24.517] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:07:24.517] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:07:24.517] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:07:24.517] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:07:24.517] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:07:24.526] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:07:24.526] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:07:24.540] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:07:35.156] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:07:35.156] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:07:35.156] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:07:35.156] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:07:35.156] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:07:35.160] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:07:35.160] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:07:35.172] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:07:45.779] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:07:45.779] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:07:45.779] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:07:45.780] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:07:45.780] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:07:45.781] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:07:45.781] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:07:45.793] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:07:56.406] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:07:56.406] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:07:56.406] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:07:56.406] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:07:56.406] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:07:56.407] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:07:56.408] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:07:56.417] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:08:07.024] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:08:07.024] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:08:07.024] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:08:07.024] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:08:07.024] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:08:07.025] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:08:07.026] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:08:07.038] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:08:17.763] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:08:17.763] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:08:17.763] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:08:17.763] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:08:17.763] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:08:17.765] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:08:17.765] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:08:17.778] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:08:28.409] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:08:28.409] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:08:28.409] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:08:28.409] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:08:28.409] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:08:28.414] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:08:28.414] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:08:28.429] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:08:39.034] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:08:39.035] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:08:39.035] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:08:39.035] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:08:39.035] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:08:39.036] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:08:39.036] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:08:39.042] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:08:49.654] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:08:49.655] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:08:49.655] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:08:49.655] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:08:49.655] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:08:49.661] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:08:49.661] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:08:49.680] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:09:00.284] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:09:00.285] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:09:00.285] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:09:00.285] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:09:00.285] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:09:00.287] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:09:00.287] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:09:00.300] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:09:10.934] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:09:10.934] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:09:10.934] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:09:10.934] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:09:10.934] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:09:10.935] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:09:10.935] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:09:10.945] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:09:21.553] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:09:21.553] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:09:21.553] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:09:21.553] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:09:21.553] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:09:21.559] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:09:21.559] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:09:21.576] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:09:32.197] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:09:32.197] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:09:32.197] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:09:32.197] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:09:32.197] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:09:32.201] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:09:32.201] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:09:32.217] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:09:42.825] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:09:42.825] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:09:42.825] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:09:42.825] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:09:42.825] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:09:42.828] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:09:42.828] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:09:42.839] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:09:53.454] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:09:53.454] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:09:53.454] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:09:53.454] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:09:53.454] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:09:53.455] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:09:53.455] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:09:53.467] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:10:04.083] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:10:04.083] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:10:04.083] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:10:04.083] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:10:04.083] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:10:04.084] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:10:04.085] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:10:04.097] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:10:14.714] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:10:14.714] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:10:14.715] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:10:14.715] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:10:14.715] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:10:14.718] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:10:14.718] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:10:14.733] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:10:25.354] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:10:25.354] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:10:25.355] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:10:25.355] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:10:25.355] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:10:25.356] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:10:25.356] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:10:25.366] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:10:35.976] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:10:35.976] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:10:35.977] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:10:35.977] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:10:35.977] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:10:35.980] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:10:35.980] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:10:35.993] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:10:46.603] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:10:46.603] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:10:46.604] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:10:46.604] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:10:46.604] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:10:46.606] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:10:46.606] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:10:46.618] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:10:57.315] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:10:57.315] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:10:57.315] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:10:57.316] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:10:57.316] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:10:57.317] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:10:57.317] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:10:57.331] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:11:07.955] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:11:07.955] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:11:07.955] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:11:07.955] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:11:07.955] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:11:07.956] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:11:07.956] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:11:07.968] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:11:18.581] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:11:18.581] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:11:18.581] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:11:18.581] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:11:18.581] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:11:18.582] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:11:18.582] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:11:18.593] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:11:29.254] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:11:29.255] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:11:29.255] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:11:29.255] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:11:29.255] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:11:29.256] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:11:29.256] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:11:29.268] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:11:39.893] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:11:39.893] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:11:39.893] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:11:39.893] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:11:39.893] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:11:39.896] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:11:39.896] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:11:39.910] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:11:50.526] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:11:50.526] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:11:50.526] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:11:50.526] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:11:50.526] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:11:50.528] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:11:50.528] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:11:50.540] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:12:01.146] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:12:01.146] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:12:01.147] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:12:01.147] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:12:01.147] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:12:01.151] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:12:01.151] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:12:01.164] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:12:11.777] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:12:11.777] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:12:11.778] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:12:11.778] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:12:11.778] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:12:11.780] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:12:11.780] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:12:11.794] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:12:22.493] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:12:22.494] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:12:22.494] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:12:22.494] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:12:22.494] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:12:22.496] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:12:22.496] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:12:22.508] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:12:33.137] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:12:33.137] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:12:33.137] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:12:33.137] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:12:33.137] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:12:33.201] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:12:33.201] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:12:33.242] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:12:43.994] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:12:43.994] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:12:43.994] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:12:43.995] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:12:43.995] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:12:43.996] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:12:43.997] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:12:44.009] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:12:54.624] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:12:54.624] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:12:54.624] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:12:54.624] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:12:54.624] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:12:54.626] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:12:54.626] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:12:54.638] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:13:05.255] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:13:05.256] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:13:05.256] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:13:05.256] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:13:05.256] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:13:05.258] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:13:05.258] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:13:05.269] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:13:15.963] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:13:15.963] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:13:15.964] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:13:15.964] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:13:15.964] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:13:15.966] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:13:15.966] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:13:15.978] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:13:26.699] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:13:26.699] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:13:26.700] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:13:26.700] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:13:26.700] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:13:26.708] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:13:26.708] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:13:26.731] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:13:37.450] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:13:37.450] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:13:37.451] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:13:37.451] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:13:37.451] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:13:37.465] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:13:37.465] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:13:37.484] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:13:48.086] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:13:48.086] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:13:48.087] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:13:48.087] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:13:48.087] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:13:48.091] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:13:48.091] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:13:48.106] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:13:58.727] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:13:58.727] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:13:58.727] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:13:58.727] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:13:58.728] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:13:58.741] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:13:58.741] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:13:58.760] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:14:09.370] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:14:09.371] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:14:09.371] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:14:09.371] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:14:09.371] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:14:09.373] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:14:09.373] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:14:09.384] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:14:19.996] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:14:19.996] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:14:19.996] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:14:19.996] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:14:19.996] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:14:19.998] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:14:19.998] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:14:20.012] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:14:30.624] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:14:30.624] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:14:30.624] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:14:30.624] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:14:30.625] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:14:30.626] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:14:30.626] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:14:30.632] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:14:41.345] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:14:41.345] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:14:41.345] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:14:41.345] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:14:41.346] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:14:41.347] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:14:41.347] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:14:41.358] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:14:51.965] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:14:51.965] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:14:51.965] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:14:51.965] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:14:51.965] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:14:51.966] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:14:51.966] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:14:51.979] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:15:02.595] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:15:02.595] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:15:02.595] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:15:02.595] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:15:02.595] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:15:02.596] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:15:02.596] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:15:02.607] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:15:13.296] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:15:13.296] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:15:13.296] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:15:13.296] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:15:13.296] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:15:13.297] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:15:13.298] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:15:13.302] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:15:23.948] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:15:23.948] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:15:23.948] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:15:23.948] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:15:23.948] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:15:23.950] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:15:23.950] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:15:23.964] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:15:34.606] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:15:34.607] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:15:34.607] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:15:34.607] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:15:34.607] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:15:34.608] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:15:34.608] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:15:34.613] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:15:45.346] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:15:45.346] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:15:45.346] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:15:45.346] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:15:45.346] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:15:45.347] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:15:45.347] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:15:45.360] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:15:55.968] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:15:55.968] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:15:55.968] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:15:55.968] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:15:55.968] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:15:55.970] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:15:55.970] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:15:55.990] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:16:06.645] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:16:06.645] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:16:06.657] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:16:06.657] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:16:06.657] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:16:06.659] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:16:06.659] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:16:06.671] [INFO] NUCLIUS_DATA - data successfully inserted
+[2022-10-10T00:16:17.274] [INFO] NUCLIUS_DATA - Request reached from host ::ffff:192.168.1.3 and request packet :
+[2022-10-10T00:16:17.280] [INFO] NUCLIUS_DATA - {
+  hardware_id: 'dcsub001',
+  data: { current: -0.300000012, voltage: 0, power: 0 }
+}
+[2022-10-10T00:16:17.280] [INFO] NUCLIUS_DATA - Primary validation is sucess and finding hardware id.
+[2022-10-10T00:16:17.280] [INFO] NUCLIUS_DATA - hardware id is present in request | hardware id is : dcsub001
+[2022-10-10T00:16:17.280] [INFO] NUCLIUS_DATA - inserting current  = -0.300000012 | voltage = 0 | power = 0
+[2022-10-10T00:16:17.286] [INFO] NUCLIUS_DATA - connected id 9
+[2022-10-10T00:16:17.286] [INFO] NUCLIUS_DATA - sql query :INSERT INTO dcsub001 SET seq_id=?
+[2022-10-10T00:16:17.295] [INFO] NUCLIUS_DATA - data successfully inserted

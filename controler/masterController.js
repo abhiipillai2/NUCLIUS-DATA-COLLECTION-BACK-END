@@ -10,7 +10,7 @@ exports.dataPush = (req, res) => {
         let clintIp = req.socket.remoteAddress
 
         //request body
-        const body = req.body
+        const {} = req.body
 
         //validation
         let hardwareId = body.hardware_id;
